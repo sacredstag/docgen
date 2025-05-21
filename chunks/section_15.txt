@@ -1,0 +1,11 @@
+<ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="6069521f-f8c9-43c6-b6ce-a3951d0eb452"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<h2>Storage Class creation</h2>
+<p class="auto-cursor-target">Instructions for PVC(volumes) are made specifying protocol(FC/iSCSI), folder on the array, allowing for volume expansion, etc... </p>
+<p class="auto-cursor-target"><br /></p>
+<p class="auto-cursor-target"><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="928040af-831c-4a51-9eb2-10dae874e9db"><ac:parameter ac:name="borderStyle">solid</ac:parameter><ac:parameter ac:name="title">Syntax</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="noformat" ac:schema-version="1" ac:macro-id="f501c2ed-cd50-4534-a21c-b3c05476f345"><ac:parameter ac:name="nopanel">true</ac:parameter><ac:plain-text-body><![CDATA[Replace this with Command Syntax]]></ac:plain-text-body></ac:structured-macro>

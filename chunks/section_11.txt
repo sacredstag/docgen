@@ -1,0 +1,11 @@
+<ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="b25967e2-c2de-4a5f-9e7c-821fb010b7aa"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<h2>Create Pod</h2>
+<p class="auto-cursor-target">Pod is the container the customer is running and this should be already created with a reference to the PVC it is mounting</p>
+<p class="auto-cursor-target"><br /></p>
+<p class="auto-cursor-target"><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="569f7d89-ec56-41d2-add6-5b377d982c2a"><ac:parameter ac:name="borderStyle">solid</ac:parameter><ac:parameter ac:name="title">Syntax</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="noformat" ac:schema-version="1" ac:macro-id="863e3a66-2f34-4caa-b7b1-958341ff3c01"><ac:parameter ac:name="nopanel">true</ac:parameter><ac:plain-text-body><![CDATA[kubectl apply -f <pod name>.yaml]]></ac:plain-text-body></ac:structured-macro>

@@ -1,0 +1,10 @@
+<!-- Replace FAQ content only. Maintain structure and macro layout. -->
+<h1>Frequently Asked Questions</h1></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="d6b53cca-a11b-4a1a-81f7-591a148e41ce"><ac:parameter ac:name="bgColor">white</ac:parameter><ac:rich-text-body>
+<h3 class="auto-cursor-target"><ac:placeholder>Question </ac:placeholder></h3>
+<p><ac:placeholder>Answer </ac:placeholder></p></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="d59c74f5-4831-409d-b0da-618878614964"><ac:parameter ac:name="bgColor">white</ac:parameter><ac:rich-text-body>
+<h3 class="auto-cursor-target"><ac:placeholder>Question </ac:placeholder></h3>
+<p><ac:placeholder>Answer </ac:placeholder></p></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="3ad183cf-9835-497b-9f7b-c20a974d47de"><ac:parameter ac:name="bgColor">white</ac:parameter><ac:rich-text-body>
+<h3 class="auto-cursor-target"><ac:placeholder>Question </ac:placeholder></h3>
+<p><ac:placeholder>Answer </ac:placeholder></p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro>
+<p><ac:link ac:anchor="TOP"><ac:plain-text-link-body><![CDATA[Return to top]]></ac:plain-text-link-body></ac:link></p></ac:layout-cell></ac:layout-section><ac:layout-section ac:type="single"><ac:layout-cell><ac:structured-macro ac:name="html" ac:schema-version="1" ac:macro-id="e7a891e0-b669-437c-8a73-1c30b53815d8"><ac:parameter ac:name="atlassian-macro-output-type">INLINE</ac:parameter><ac:plain-text-body><![CDATA[<script type="text/javascript" src="https://nimblejira.nimblestorage.com/s/e18777cb2c6831b9f86015f8b1bc41ef-T/kpm0th/74006/11e884700d0d4c43dde93c0e41993be8/2.0.24/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=2df0ef00"></script>
+]]></ac:plain-text-body></ac:structured-macro></ac:layout-cell></ac:layout-section></ac:layout>

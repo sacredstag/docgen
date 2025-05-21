@@ -1,0 +1,11 @@
+<ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="bf9696f5-1e55-40a2-89b7-4f5a095f779c"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<h2><ac:placeholder>Step 4 </ac:placeholder></h2>
+<p class="auto-cursor-target"><ac:placeholder>Description of the Step. Be sure to line break enough times to properly orient the text with the media on the right. </ac:placeholder></p>
+<p class="auto-cursor-target"><br /></p>
+<p class="auto-cursor-target"><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="1c57c7f0-cad7-45d0-9556-160555bfc917"><ac:parameter ac:name="borderStyle">solid</ac:parameter><ac:parameter ac:name="title">Syntax</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="noformat" ac:schema-version="1" ac:macro-id="c771d3f5-c2d5-4dc7-aaea-d6cc12eb8792"><ac:parameter ac:name="nopanel">true</ac:parameter><ac:plain-text-body><![CDATA[Replace this with Command Syntax]]></ac:plain-text-body></ac:structured-macro>

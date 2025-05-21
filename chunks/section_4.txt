@@ -1,0 +1,19 @@
+<ac:structured-macro ac:name="section">
+  <ac:rich-text-body>
+    <ac:structured-macro ac:name="column">
+      <ac:parameter ac:name="width">100%</ac:parameter>
+      <ac:rich-text-body>
+        <h1>Inspect kubelet</h1>
+        <p>Review for CSI-related plugin failures or volume attachment events.</p>
+        <ac:structured-macro ac:name="expand">
+          <ac:parameter ac:name="title">CLI Command</ac:parameter>
+          <ac:rich-text-body>
+            <ac:structured-macro ac:name="noformat">
+              <ac:plain-text-body><![CDATA[journalctl -u kubelet]]></ac:plain-text-body>
+            </ac:structured-macro>
+          </ac:rich-text-body>
+        </ac:structured-macro>
+      </ac:rich-text-body>
+    </ac:structured-macro>
+  </ac:rich-text-body>
+</ac:structured-macro>

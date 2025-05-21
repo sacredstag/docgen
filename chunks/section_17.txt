@@ -1,0 +1,11 @@
+<ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="c0a021a8-8294-4a8d-b613-fa3103de2e58"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<h2>PVC creation</h2>
+<p class="auto-cursor-target">The PVC/volume is created on the array, however the initiator group is not created and no storage connectivity will happen till the pod/container is created.</p>
+<p class="auto-cursor-target"><br /></p>
+<p class="auto-cursor-target"><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="14dfa778-0ee1-4c94-8407-f00d88013fd3"><ac:parameter ac:name="borderStyle">solid</ac:parameter><ac:parameter ac:name="title">Syntax</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="noformat" ac:schema-version="1" ac:macro-id="8253de15-b287-4f99-9265-b3b3f902c62c"><ac:parameter ac:name="nopanel">true</ac:parameter><ac:plain-text-body><![CDATA[Replace this with Command Syntax]]></ac:plain-text-body></ac:structured-macro>

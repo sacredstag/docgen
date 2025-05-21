@@ -1,0 +1,82 @@
+<ac:layout>
+  <ac:layout-section ac:type="single">
+    <ac:layout-cell>
+      <ac:structured-macro ac:name="panel" ac:schema-version="1">
+        <ac:parameter ac:name="bgColor">#01A982</ac:parameter>
+        <ac:rich-text-body>
+          <ac:structured-macro ac:name="anchor">
+            <ac:parameter ac:name="">overview</ac:parameter>
+          </ac:structured-macro>
+          <h1>Overview</h1>
+          <p>This document addresses the issue of subscription validation failure in the HPE GreenLake Cloud Console, specifically for the HPE Alletra Storage MP B10000 array. It outlines the necessary steps to troubleshoot and resolve connectivity issues that prevent successful subscription validation.</p>
+        </ac:rich-text-body>
+      </ac:structured-macro>
+      <ac:structured-macro ac:name="panel" ac:schema-version="1">
+        <ac:parameter ac:name="bgColor">#32DAC8</ac:parameter>
+        <ac:rich-text-body>
+          <ac:structured-macro ac:name="anchor">
+            <ac:parameter ac:name="">steps</ac:parameter>
+          </ac:structured-macro>
+          <h1>Procedural Steps</h1>
+          <ol>
+            <li>Verify network connectivity from the HPE Alletra array to the internet to ensure there are no disruptions.</li>
+            <li>Check the firewall settings to confirm that outbound traffic to HPE Cloud Console endpoints is allowed.</li>
+            <li>Review the proxy settings on the HPE Alletra array to ensure they are correctly configured.</li>
+            <li>Manually initiate the subscription validation from the array's management interface.</li>
+            <li>If the issue persists, update the firewall rules to allow traffic on the ports required by HPE Cloud Console.</li>
+            <li>Re-attempt the subscription validation process.</li>
+          </ol>
+        </ac:rich-text-body>
+      </ac:structured-macro>
+      <ac:structured-macro ac:name="panel" ac:schema-version="1">
+        <ac:parameter ac:name="bgColor">#0D5265</ac:parameter>
+        <ac:rich-text-body>
+          <ac:structured-macro ac:name="anchor">
+            <ac:parameter ac:name="">validation</ac:parameter>
+          </ac:structured-macro>
+          <h1>Validation & Logs</h1>
+          <p>Check the system logs for any error messages related to network connectivity or firewall denials. These logs can provide clues about the ports being blocked or if the proxy settings are not correctly applied.</p>
+        </ac:rich-text-body>
+      </ac:structured-macro>
+      <ac:structured-macro ac:name="panel" ac:schema-version="1">
+        <ac:parameter ac:name="bgColor">#32DAC8</ac:parameter>
+        <ac:rich-text-body>
+          <h1>Expected CLI Commands</h1>
+          <ac:structured-macro ac:name="code">
+            <ac:parameter ac:name="language">bash</ac:parameter>
+            <ac:plain-text-body><![CDATA[
+# Verify network connectivity
+ping cloud.hpe.com
+
+# Check firewall status
+sudo firewall-cmd --list-all
+
+# Display proxy settings
+cat /etc/environment
+            ]]></ac:plain-text-body>
+          </ac:structured-macro>
+        </ac:rich-text-body>
+      </ac:structured-macro>
+      <ac:structured-macro ac:name="panel" ac:schema-version="1">
+        <ac:parameter ac:name="bgColor">#C54E4B</ac:parameter>
+        <ac:rich-text-body>
+          <h1>Known Errors</h1>
+          <p>"Failed to connect to HPE Cloud Console" - This error typically indicates network issues such as blocked ports or incorrect proxy settings.</p>
+        </ac:rich-text-body>
+      </ac:structured-macro>
+      <ac:structured-macro ac:name="panel" ac:schema-version="1">
+        <ac:parameter ac:name="bgColor">#7630EA</ac:parameter>
+        <ac:rich-text-body>
+          <ac:structured-macro ac:name="anchor">
+            <ac:parameter ac:name="">FAQ</ac:parameter>
+          </ac:structured-macro>
+          <h1>Frequently Asked Questions</h1>
+          <h3>What ports need to be open for HPE GreenLake Cloud Console?</h3>
+          <p>Ensure that ports 443 (HTTPS) and other specific service ports documented in the HPE support guide are open.</p>
+          <h3>How do I check if the proxy settings are correctly configured on the HPE Alletra array?</h3>
+          <p>Use the management interface to review the network settings or consult the HPE Alletra documentation for specific commands to display the current proxy configuration.</p>
+        </ac:rich-text-body>
+      </ac:structured-macro>
+    </ac:layout-cell>
+  </ac:layout-section>
+</ac:layout>

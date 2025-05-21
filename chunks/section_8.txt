@@ -1,0 +1,26 @@
+<ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="0b1d83cc-3b58-494e-97e2-bed1f5419e17"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="code" ac:schema-version="1" ac:macro-id="cb5f461a-25e5-4514-bf97-f22405cb70ea"><ac:parameter ac:name="language">bash</ac:parameter><ac:parameter ac:name="theme">Emacs</ac:parameter><ac:parameter ac:name="title">Example of Storage Class YAML</ac:parameter><ac:parameter ac:name="collapse">true</ac:parameter><ac:plain-text-body><![CDATA[apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  name: hpe-standard
+  annotations:
+    storageclass.kubernetes.io/is-default-class: "true"
+provisioner: csi.hpe.com
+parameters:
+  csi.storage.k8s.io/fstype: xfs										# Filesystem that will be mounted inside the pod
+  csi.storage.k8s.io/provisioner-secret-name: custom-secret				# Secret is referenced allowing connectivity to the array
+  csi.storage.k8s.io/provisioner-secret-namespace: hpe-storage
+  csi.storage.k8s.io/controller-publish-secret-name: custom-secret
+  csi.storage.k8s.io/controller-publish-secret-namespace: hpe-storage
+  csi.storage.k8s.io/node-stage-secret-name: custom-secret
+  csi.storage.k8s.io/node-stage-secret-namespace: hpe-storage
+  csi.storage.k8s.io/node-publish-secret-name: custom-secret
+  csi.storage.k8s.io/node-publish-secret-namespace: hpe-storage
+  csi.storage.k8s.io/controller-expand-secret-name: custom-secret
+  csi.storage.k8s.io/controller-expand-secret-namespace: hpe-storage
+  performancePolicy: "default"											# Performance policy on the array(case sensitive)
+  description: "Volume from HPE CSI Driver"
+  accessProtocol: iscsi													# Protocol for connecting storage (iSCSI/FC) ## will default to iSCSI if not specified
+  folder: "kubernetes"													# Folder on the storage array where PVC(volume) is stored ## optional	
+  syncOnDetach: "True"													# PVC(volume) control feature that defaults to "false" ## optional
+  destroyOnDelete: "True"												# Deletes PVC(volume) on array when deleted from Kubernetes ## optional
+allowVolumeExpansion: true												# If not specified prior to PVC(volume) creation it will not be able to extend ## optional]]></ac:plain-text-body></ac:structured-macro>

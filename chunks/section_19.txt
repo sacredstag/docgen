@@ -1,0 +1,17 @@
+<ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="cf617e76-c7d9-42c9-bb20-62f7ecb03460"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<h2>Pod creation</h2>
+<p class="auto-cursor-target">Pod will go to either an internal or external(Docker hub) repo to pull down the container image</p>
+<p class="auto-cursor-target"><br /></p>
+<ul>
+<li class="auto-cursor-target">Image is downloaded and pod created</li>
+<li class="auto-cursor-target">Initiator group for PVC is created</li>
+<li class="auto-cursor-target">PVC is mounted to the pod
+<ul>
+<li class="auto-cursor-target">Filesystem is formatted to the PVC(per the filesystem specified in the storage class)</li>
+<li class="auto-cursor-target">The iSCSI/FC mounts will exist on the worker node where the pod exist</li></ul></li></ul>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="6dce3ddb-e128-4748-986f-15635ad3f6af"><ac:parameter ac:name="borderStyle">solid</ac:parameter><ac:parameter ac:name="title">Syntax</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="noformat" ac:schema-version="1" ac:macro-id="c6ea27ab-2837-4d8d-963e-33cd103abd18"><ac:parameter ac:name="nopanel">true</ac:parameter><ac:plain-text-body><![CDATA[kubectl exec --it <pod-name> – df -h]]></ac:plain-text-body></ac:structured-macro>

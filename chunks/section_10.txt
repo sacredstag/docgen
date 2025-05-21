@@ -1,0 +1,11 @@
+<ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="f8f204f5-a10a-473e-8594-1e679fd7a604"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="code" ac:schema-version="1" ac:macro-id="5cf00792-489d-46f9-8330-3ac85459483c"><ac:parameter ac:name="language">bash</ac:parameter><ac:parameter ac:name="theme">Emacs</ac:parameter><ac:parameter ac:name="title">Example of PVC YAML</ac:parameter><ac:parameter ac:name="collapse">true</ac:parameter><ac:plain-text-body><![CDATA[apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: my-first-pvc
+spec:
+  accessModes:
+  - ReadWriteOnce
+  resources:
+    requests:
+      storage: 32Gi				# Size of PVC/Volume on the Nimble/Alletra
+  storageClassName: hpe-scod	# Storage Class name ]]></ac:plain-text-body></ac:structured-macro>

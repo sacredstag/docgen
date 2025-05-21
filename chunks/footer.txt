@@ -1,0 +1,17 @@
+<h1>Frequently Asked Questions (FAQ)</h1>
+<p>This section addresses common questions and concerns about the project, providing clarifications and additional information to ensure all stakeholders have a thorough understanding of project processes and expectations.</p>
+
+<h2>What is the purpose of the secret YAML file?</h2>
+<p>The secret YAML file is used to securely store credentials and other sensitive information required for authenticating and connecting to external storage resources. This ensures that access is controlled and that the data can be accessed securely by authorized Kubernetes/OpenShift nodes.</p>
+
+<h2>How does the storage class affect volume provisioning?</h2>
+<p>The storage class specifies the type of storage to be used and the method for provisioning volumes. It includes details such as the type of protocol (FC/iSCSI), the provisioning policy (e.g., thin or thick provisioning), and performance characteristics. This classification helps in dynamically provisioning the storage as per the specified requirements when a PVC is requested.</p>
+
+<h2>What happens if a pod fails to mount a PVC?</h2>
+<p>If a pod fails to mount a PVC, Kubernetes/OpenShift will repeatedly attempt to mount the volume. If it continues to fail, it will report an error in the pod's events, which can be viewed using the `kubectl describe pod [pod-name]` command. Troubleshooting steps would typically involve checking the storage connectivity, permissions, and the logs of the storage provider.</p>
+
+<h2>Can I specify multiple storage classes in a single secret YAML file?</h2>
+<p>No, a secret YAML file is generally specific to a single storage class or a specific type of connection. If multiple types of storage or connections are needed, separate secrets should be created for each to maintain clarity and security best practices.</p>
+
+<h2>How secure is the information stored in the secret YAML file?</h2>
+<p>Kubernetes/OpenShift secrets are stored as base64-encoded strings in the cluster's etcd database. While base64 is not an encryption method, access to secrets can be tightly controlled using Kubernetes RBAC (Role-Based Access Control) policies to ensure that only authorized users and applications can retrieve or manage the secrets.</p>

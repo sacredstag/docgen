@@ -1,0 +1,19 @@
+<ac:structured-macro ac:name="section">
+  <ac:rich-text-body>
+    <ac:structured-macro ac:name="column">
+      <ac:parameter ac:name="width">100%</ac:parameter>
+      <ac:rich-text-body>
+        <h1>Verify PVC status</h1>
+        <p>Check if the PVC is in `Pending`, `Bound`, or `Lost` state.</p>
+        <ac:structured-macro ac:name="expand">
+          <ac:parameter ac:name="title">CLI Command</ac:parameter>
+          <ac:rich-text-body>
+            <ac:structured-macro ac:name="noformat">
+              <ac:plain-text-body><![CDATA[kubectl get pvc]]></ac:plain-text-body>
+            </ac:structured-macro>
+          </ac:rich-text-body>
+        </ac:structured-macro>
+      </ac:rich-text-body>
+    </ac:structured-macro>
+  </ac:rich-text-body>
+</ac:structured-macro>

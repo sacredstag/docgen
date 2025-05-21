@@ -1,0 +1,18 @@
+<h1>Secret Creation</h1>
+<p>Use <a href="https://scod.hpedev.io/csi_driver/deployment.html#create_a_storageclass_with_the_custom_secret:~:text=storage%20backend.-">SCOD</a> to create a secret YAML file for a set of instructions to connect to storage.</p>
+
+<h2>Create the secret YAML file</h2>
+<ac:structured-macro ac:name="tip" ac:schema-version="1">
+    <ac:rich-text-body>
+        <p>In a real-world scenario, it's more practical to name the <code>Secret</code> something that makes sense for the organization. It could be the hostname of the backend or the role it carries, i.e. "hpe-alletra-sanjose-prod."</p>
+    </ac:rich-text-body>
+</ac:structured-macro>
+
+<p><br /></p>
+<p><br /></p>
+
+<ac:structured-macro ac:name="gliffy" ac:schema-version="1">
+    <ac:parameter ac:name="size">600</ac:parameter>
+    <ac:parameter ac:name="name">Troubleshooting Workflow Template</ac:parameter>
+    <ac:parameter ac:name="pageid">208970019</ac:parameter>
+</ac:structured-macro>

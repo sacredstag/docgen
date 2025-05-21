@@ -1,0 +1,48 @@
+scenario_id: pvc_mount_failure
+title: PVC Mount Fails After Node Reboot
+severity: high
+audience: L2, L3
+platforms: [OpenShift, Kubernetes]
+summary: |
+  Document troubleshooting steps when PVCs fail to remount after OpenShift nodes reboot or failover.
+  Common issues include CSI driver restarts, reclaimPolicy misconfigurations, and pod affinity constraints.
+
+cli_commands:
+  - kubectl get pvc
+  - kubectl describe pvc <claim-name>
+  - kubectl logs -n kube-system -l app=csi-node
+  - journalctl -u kubelet
+  - lsblk
+  - mount | grep /var/lib/kubelet
+
+errors_to_cover:
+  - MountVolume.Setup failed
+  - CSI driver not registered
+  - volume not found
+  - reclaim policy mismatch
+
+section_tips:
+  overview: Include 2-3 sentences on why this issue occurs and what environments are affected.
+  validation: Inject log patterns and example CLI output blocks.
+  faq: Include at least three L3-focused edge questions.
+  steps: Cover pod/node isolation, PVC binding behavior, and reclaim behavior.
+
+related_labels:
+  - openshift
+  - pvc
+  - mount-failure
+  - csi
+
+steps:
+  - Verify PVC status:
+      cmd: kubectl get pvc
+      desc: Check if the PVC is in `Pending`, `Bound`, or `Lost` state.
+  - Describe the PVC:
+      cmd: kubectl describe pvc <claim-name>
+      desc: Inspect Events section for scheduling issues or reclaim policy mismatch.
+  - Check CSI node logs:
+      cmd: kubectl logs -n kube-system -l app=csi-node
+      desc: Look for mount errors, timeouts, or communication issues.
+  - Inspect kubelet:
+      cmd: journalctl -u kubelet
+      desc: Review for CSI-related plugin failures or volume attachment events.

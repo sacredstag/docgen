@@ -1,0 +1,327 @@
+<ac:layout><ac:layout-section ac:type="single"><ac:layout-cell><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="6558e585-5d64-4967-821f-df000d0d42cd"><ac:parameter ac:name="bgColor">#C54E4B</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="f8fdc33b-72ee-40ee-b256-fd98449ebb23"><ac:parameter ac:name="bgColor">white</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="warning" ac:schema-version="1" ac:macro-id="a2a39ca3-a5b4-4534-972d-75d7238fbebd"><ac:rich-text-body>
+<h1>This page is a staging page! Nothing on this page should be referenced or used as it's in development and could be incorrect or incomplete.</h1>
+<h1>Please use knowledge located on <a href="https://kcs.nido.nim.hpecorp.net/">KCS</a> or <a href="https://confluence.eng.nimblestorage.com/display/KNOW">Support Knowledge</a> instead.</h1></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="efd4e516-67fc-4bab-ab53-41986b330702"><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="8a277354-d815-4ad4-966c-c754b80d7ce2"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="details" ac:schema-version="1" ac:macro-id="b366c90e-8346-4ee6-baa1-83d147279e4d"><ac:rich-text-body>
+<table class="wrapped"><colgroup> <col /> <col /> </colgroup>
+<tbody>
+<tr>
+<th>KNOW Knowledge Request</th>
+<td>
+<div class="content-wrapper">
+<p><ac:structured-macro ac:name="jira" ac:schema-version="1" ac:macro-id="d55e52c9-112e-4ec8-92ca-5568543c5797"><ac:parameter ac:name="server">NimbleJIRA</ac:parameter><ac:parameter ac:name="serverId">c21b0b0a-51b1-3a4f-ac8e-272a931a59fb</ac:parameter><ac:parameter ac:name="key">KNOW-2810</ac:parameter></ac:structured-macro></p></div></td></tr>
+<tr>
+<th colspan="1">Knowledge Type</th>
+<td colspan="1">Process Doc</td></tr>
+<tr>
+<th>Technical Team</th>
+<td>
+<div class="content-wrapper">
+<p>Eco-Other</p></div></td></tr>
+<tr>
+<th colspan="1">Technical SME</th>
+<td colspan="1"><ac:link><ri:user ri:userkey="8a9280416491f3210165827e2d7f003c" /></ac:link> </td></tr>
+<tr>
+<th>Slack Channel</th>
+<td>
+<div class="content-wrapper"><a href="https://hpe.enterprise.slack.com/archives/C0269GB11C3">https://hpe.enterprise.slack.com/archives/C0269GB11C3</a></div></td></tr>
+<tr>
+<th colspan="1">Published?</th>
+<td colspan="1"><ac:emoticon ac:name="cross" /> <ac:placeholder>When published, delete the red X and type (/) to enter a green check</ac:placeholder></td></tr></tbody></table></ac:rich-text-body></ac:structured-macro>
+<h3>Building Resources:</h3>
+<ul>
+<li><a href="https://confluence.eng.nimblestorage.com/x/zlgsBQ">Support Knowledge Staging</a></li>
+<li><a href="https://confluence.eng.nimblestorage.com/x/hgP3Bw">Knowledge Creation Workflow</a></li>
+<li><a href="https://confluence.eng.nimblestorage.com/x/cLF_BQ">Labels Used by the Knowledge Vertical</a></li>
+<li><a href="https://confluence.eng.nimblestorage.com/x/BRUsBQ">Nimble Support Style / Writing Guide</a></li>
+<li><a href="https://nimblejira.nimblestorage.com/projects/KNOW/issues/">Knowledge Jira Project</a></li></ul>
+<p><br /></p><ac:structured-macro ac:name="expand" ac:schema-version="1" ac:macro-id="ceee1326-c78f-4f6f-afec-3d7f9b4ddefa"><ac:parameter ac:name="title">Gliffy Diagram If Needed...</ac:parameter><ac:rich-text-body>
+<p>If the Gliffy Diagram is needed, Go out to the View, click the 3 dots, and Copy the Diagram to this page. Then Move it to its proper location.</p>
+<p><span style="color: rgb(255,0,0);"><strong>DO NOT EDIT THE ORIGINAL</strong></span></p>
+<p>If it is <em>not</em> needed, then delete this expand box.</p>
+<p><ac:structured-macro ac:name="gliffy" ac:schema-version="1" ac:macro-id="240e4002-0f5d-469b-8f56-90cc926fe83b"><ac:parameter ac:name="size">600</ac:parameter><ac:parameter ac:name="name">Troubleshooting Workflow Template</ac:parameter><ac:parameter ac:name="pageid">208970019</ac:parameter><ac:parameter ac:name="" /></ac:structured-macro></p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="0411ea49-08b5-4e94-a230-8402afd3d82e"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="warning" ac:schema-version="1" ac:macro-id="4344b7f1-05f8-4e27-acbc-db8ba5519aa3"><ac:rich-text-body>
+<p><strong>This template is an Advanced Staging Template</strong> – which means that it is not for everyone. For a Simple Staging Template, go back to the <a href="https://confluence.eng.nimblestorage.com/x/zlgsBQ">Support Knowledge Staging</a> page and click &quot;<strong> <code>Create page from STAGE Template</code> </strong>&quot;</p></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="info" ac:schema-version="1" ac:macro-id="ca918fa3-b77a-4fd3-a3fa-a3ce5966ca5a"><ac:rich-text-body>
+<p>This template provides technical SMEs a simple layout to document the information they're looking to have developed into published knowledge for the global Nimble TSE team. It's important that a KNOW Jira Knowledge Request be associated with this page to enable tracking of the development of the knowledge. Please reach out to the Knowledge Team with any questions.</p></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="warning" ac:schema-version="1" ac:macro-id="29d9ae44-076c-40fb-a63d-f864c870c0bb"><ac:rich-text-body>
+<p>This template should not be used for Pro Tip Video Requests. Use the <a href="https://confluence.eng.nimblestorage.com/x/9S2eBg">Pro Tip Video Production Template</a> instead.</p></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="note" ac:schema-version="1" ac:macro-id="80447fe9-7ee5-4c9e-860c-f88680008c94"><ac:rich-text-body>
+<p>Once this page has been finished, confirmed via a Final Review in the Jira issue, and moved to Support Knowledge then this entire Section should be removed as per the <a href="https://confluence.eng.nimblestorage.com/x/hgP3Bw">Knowledge Creation Workflow</a>.</p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:layout-cell></ac:layout-section><ac:layout-section ac:type="single"><ac:layout-cell><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="f11760d5-b3f7-4343-96b9-48dc6092ed02"><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="c347fd6d-5ab3-4e19-92f1-2c1e48b98fad"><ac:parameter ac:name="width">20%</ac:parameter><ac:rich-text-body>
+<p><ac:structured-macro ac:name="toc" ac:schema-version="1" ac:macro-id="ebaf3202-07d6-47dd-b3d2-ca01a7251429"><ac:parameter ac:name="maxLevel">2</ac:parameter><ac:parameter ac:name="exclude">^Overview|Related Knowledge</ac:parameter></ac:structured-macro></p>
+<p><br /></p>
+<p><ac:structured-macro ac:name="anchor" ac:schema-version="1" ac:macro-id="dbd302aa-ae62-4ea8-b21f-877e14a91c3c"><ac:parameter ac:name="">TOP</ac:parameter></ac:structured-macro></p><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="9c92296b-d4e1-4cfe-bcab-d66bcdd1ecc9"><ac:rich-text-body>
+<h3>Technical Team</h3>
+<p>Eco-Other</p>
+<h3>Slack Channels</h3>
+<p><br /></p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="043db58a-00fa-4427-bb16-c15529ce1221"><ac:parameter ac:name="width">80%</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="1252a3e8-b0d7-4d20-a99c-53e4e1e464b1"><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="26118c3f-b239-4862-8a75-ec3f07b18807"><ac:parameter ac:name="width">75%</ac:parameter><ac:rich-text-body>
+<h1>Overview</h1>
+<p><ac:placeholder>At most, one paragraph explaining the topic discussed in the Piece of Knowledge. </ac:placeholder></p></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="35f6fd58-afea-4b04-bd71-a05377c6f3f6"><ac:parameter ac:name="width">25%</ac:parameter><ac:rich-text-body>
+<h2>Related Knowledge</h2>
+<p><ac:placeholder>Insert &quot;Content by Label&quot; macro. The Label used should be one that will display relevant content. </ac:placeholder></p>
+<p><ac:placeholder>Be sure to uncheck Show Labels for Each Page&quot; and &quot;Show Space Name for Each Page&quot; in the macro settings.</ac:placeholder></p>
+<p><ac:placeholder>NOTE!! - A Filter MUST be added to the macro restricting displayed results to content in the Support Knowledge space. </ac:placeholder></p>
+<p><ac:placeholder>leave this line blank for proper spacing</ac:placeholder></p>
+<p><br /></p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="30b862bd-3ef3-4072-a8a8-2cb5a3882775"><ac:parameter ac:name="title">Key Terms &amp; Definitions</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="39cab3d5-5b0e-4ae9-bf6c-69d5d41ae7c7"><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="4e4399c1-45d6-4846-83eb-b6504c2b063c"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<h3>Secret</h3>
+<p>Provides access to the array with IP/hostname, username and password</p>
+<h3>Storage Class</h3>
+<p>Set of vendor specific instructions such as protocol(FC/iSCSI/NFS), folder location on array, performance policy, etc...</p></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="a4e41108-e461-4e2a-a6af-5e9487a9a943"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<h3>PVC(Persistent Volume Claim)</h3>
+<p>Request for a PV(persistent volume) to be create. Persistent volume being the volume that exists on the <span style="color: rgb(23,43,77);">HPE storage array</span>.</p>
+<h3>Pod </h3>
+<p>A<span> </span><span style="color: rgb(23,43,77);">group of one or more containers, with shared storage and network resources, and a specification for how to run the containers</span></p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:layout-cell></ac:layout-section><ac:layout-section ac:type="single"><ac:layout-cell>
+<p><br /></p>
+<hr />
+<p><br /></p></ac:layout-cell></ac:layout-section><ac:layout-section ac:type="single"><ac:layout-cell><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="06cd4daf-cbee-460d-8198-26f0d08b2bb7"><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="a223fbdd-6f53-4d2b-837b-d60ba8ec58c1"><ac:parameter ac:name="width">25%</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="883e8a50-b3ca-4beb-864e-e070361b8e14"><ac:parameter ac:name="borderColor">#01a982</ac:parameter><ac:parameter ac:name="borderWidth">10</ac:parameter><ac:parameter ac:name="titleBGColor">#01a982</ac:parameter><ac:rich-text-body>
+<h3 style="text-align: center;"><ac:link ac:anchor="section_1"><ac:plain-text-link-body><![CDATA[Secret Creation]]></ac:plain-text-link-body></ac:link></h3></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="a56f6823-e454-4593-9de2-817e5848d9f7"><ac:parameter ac:name="width">25%</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="37080b60-9033-4dd6-ae58-0ea1be9e6b7c"><ac:parameter ac:name="borderColor">#0D5265</ac:parameter><ac:parameter ac:name="borderWidth">10</ac:parameter><ac:parameter ac:name="titleBGColor">#32DAC8</ac:parameter><ac:rich-text-body>
+<h3 style="text-align: center;"><ac:placeholder>Section 2 Name + H3 + Center + Hyperlink to Anchor &quot;#Section_Name&quot; </ac:placeholder></h3></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="2ebc7ff0-571f-49d2-bf06-31b2bb6c2c4b"><ac:parameter ac:name="width">25%</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="2b3a73e9-bf81-474c-a640-462366d1d49b"><ac:parameter ac:name="borderColor">#ff8300</ac:parameter><ac:parameter ac:name="borderWidth">10</ac:parameter><ac:parameter ac:name="titleBGColor">#7630EA</ac:parameter><ac:rich-text-body>
+<h3 style="text-align: center;"><ac:placeholder>Section 3 Name + H3 + Center + Hyperlink to Anchor &quot;#Section_Name&quot; </ac:placeholder></h3></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="93b17646-005d-47e8-b4fa-c8483649a09a"><ac:parameter ac:name="width">25%</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="f6585e9d-ee95-4364-820d-b2548f60962f"><ac:parameter ac:name="borderColor">#7630EA</ac:parameter><ac:parameter ac:name="borderWidth">10</ac:parameter><ac:parameter ac:name="titleBGColor">#FEC901</ac:parameter><ac:rich-text-body>
+<h3 style="text-align: center;"><ac:link><ac:plain-text-link-body><![CDATA[Frequently Asked Questions]]></ac:plain-text-link-body></ac:link></h3></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:layout-cell></ac:layout-section><ac:layout-section ac:type="single"><ac:layout-cell>
+<p><br /></p>
+<hr />
+<p><br /></p></ac:layout-cell></ac:layout-section><ac:layout-section ac:type="single"><ac:layout-cell>
+<p><ac:structured-macro ac:name="anchor" ac:schema-version="1" ac:macro-id="a9c1c10c-c77c-43a0-9210-69d2932355bd"><ac:parameter ac:name="">section_1</ac:parameter></ac:structured-macro></p><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="9d9cdc84-7d15-4159-8914-6764f82808ad"><ac:parameter ac:name="bgColor">#01A982</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="646570d5-71ab-4bfd-9fbc-5187664729ac"><ac:parameter ac:name="bgColor">white</ac:parameter><ac:rich-text-body>
+<h1>Secret creation</h1>
+<p>Use <a href="https://scod.hpedev.io/csi_driver/deployment.html#create_a_storageclass_with_the_custom_secret:~:text=storage%20backend.-,Add%20an%20HPE%20Storage%20Backend,-%C2%B6">SCOD</a> to create a secret YAML file for a set of instructions to connect to storage</p></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="2bfa46ee-5370-4caa-9171-95f9d1e49c88"><ac:parameter ac:name="bgColor">white</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="4981c064-856f-44b9-808d-6f8d2cc19870"><ac:parameter ac:name="border">true</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="dca4e03c-4d32-4b89-95b2-ba2a9878cc85"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<h2>Create the secret YAML file</h2><ac:structured-macro ac:name="tip" ac:schema-version="1" ac:macro-id="0feba88d-cc3b-4cbb-8d37-c813f1df54dc"><ac:rich-text-body>
+<p><span style="color: rgb(64,64,64);">In a real world scenario it's more practical to name the<span> </span></span><code>Secret</code><span style="color: rgb(64,64,64);"><span> </span>something that makes sense for the organization. It could be the hostname of the backend or the role it carries, i.e &quot;hpe-alletra-sanjose-prod&quot;.</span></p></ac:rich-text-body></ac:structured-macro>
+<p class="auto-cursor-target"><ac:placeholder>Description of the Step. Be sure to line break enough times to properly orient the text with the media on the right. </ac:placeholder></p>
+<p class="auto-cursor-target"><br /></p>
+<p class="auto-cursor-target"><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="33d114f8-2265-4e44-81c9-47e5699bea8d"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<p><ac:image><ri:attachment ri:filename="image-2024-1-25_10-1-7.png" /></ac:image></p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="1fb864f5-2e5d-4ddb-a73d-cfd90c460fd5"><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="dc053610-e305-4b1e-a7ba-b4265a0b2bd0"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="code" ac:schema-version="1" ac:macro-id="20f51953-c377-4564-88ec-662a8013301a"><ac:parameter ac:name="language">bash</ac:parameter><ac:parameter ac:name="title">Example Secret YAML file</ac:parameter><ac:parameter ac:name="collapse">true</ac:parameter><ac:plain-text-body><![CDATA[apiVersion: v1
+kind: Secret
+metadata:
+  name: hpe-backend
+  namespace: hpe-storage  
+stringData:
+  serviceName: nimble-csp-svc	# This will be different depending on Alletra or Nimble refer to SCOD
+  servicePort: "8080"
+  backend: 192.168.1.2   		# Management IP for the Nimble/Alletra Array
+  username: admin				# Username for Nimble/Alletra Array
+  password: admin				# Password for Nimble/Alletra Array]]></ac:plain-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="cbbd7598-d6c5-46b9-8777-4228422251f3"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<p><ac:placeholder>Leave Blank </ac:placeholder></p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="a36112de-8f72-4950-b12d-b675a16ccff9"><ac:parameter ac:name="bgColor">white</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="01a8b47e-f696-4c27-9392-96c5e8093977"><ac:parameter ac:name="border">true</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="b7b0d49f-5f2d-47c5-bc4a-47a9735f5dde"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<h2>Storage Class Creation</h2>
+<p class="auto-cursor-target">Use <a href="https://scod.hpedev.io/csi_driver/deployment.html#create_a_storageclass_with_the_custom_secret:~:text=Opaque%20%20%20%20%20%20%20%205%20%20%20%20%20%20%20%20%201m-,Create%20a%20StorageClass%20with%20the%20Custom%20Secret,-%C2%B6">SCOD</a> to create a storage class YAML file for a set of vendor specific instructions for creating PVC(Volumes)</p>
+<p class="auto-cursor-target"><br /></p>
+<p class="auto-cursor-target"><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="0b386a73-36fa-4005-bc70-18d79aea0913"><ac:parameter ac:name="borderStyle">solid</ac:parameter><ac:parameter ac:name="title">Syntax</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="noformat" ac:schema-version="1" ac:macro-id="4ff4ddc8-eed2-44ce-99b3-fde5df6f69b3"><ac:parameter ac:name="nopanel">true</ac:parameter><ac:plain-text-body><![CDATA[kubectl apply -f <storageclass name>.yaml]]></ac:plain-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="5de68671-be78-44e2-895b-8ff934a42b93"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<p><ac:image ac:height="82"><ri:attachment ri:filename="image-2024-1-25_13-9-0.png" /></ac:image></p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="46d122c8-6745-494d-ab32-fcfc3e41f86a"><ac:parameter ac:name="border">true</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="0b1d83cc-3b58-494e-97e2-bed1f5419e17"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="code" ac:schema-version="1" ac:macro-id="cb5f461a-25e5-4514-bf97-f22405cb70ea"><ac:parameter ac:name="language">bash</ac:parameter><ac:parameter ac:name="theme">Emacs</ac:parameter><ac:parameter ac:name="title">Example of Storage Class YAML</ac:parameter><ac:parameter ac:name="collapse">true</ac:parameter><ac:plain-text-body><![CDATA[apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  name: hpe-standard
+  annotations:
+    storageclass.kubernetes.io/is-default-class: "true"
+provisioner: csi.hpe.com
+parameters:
+  csi.storage.k8s.io/fstype: xfs										# Filesystem that will be mounted inside the pod
+  csi.storage.k8s.io/provisioner-secret-name: custom-secret				# Secret is referenced allowing connectivity to the array
+  csi.storage.k8s.io/provisioner-secret-namespace: hpe-storage
+  csi.storage.k8s.io/controller-publish-secret-name: custom-secret
+  csi.storage.k8s.io/controller-publish-secret-namespace: hpe-storage
+  csi.storage.k8s.io/node-stage-secret-name: custom-secret
+  csi.storage.k8s.io/node-stage-secret-namespace: hpe-storage
+  csi.storage.k8s.io/node-publish-secret-name: custom-secret
+  csi.storage.k8s.io/node-publish-secret-namespace: hpe-storage
+  csi.storage.k8s.io/controller-expand-secret-name: custom-secret
+  csi.storage.k8s.io/controller-expand-secret-namespace: hpe-storage
+  performancePolicy: "default"											# Performance policy on the array(case sensitive)
+  description: "Volume from HPE CSI Driver"
+  accessProtocol: iscsi													# Protocol for connecting storage (iSCSI/FC) ## will default to iSCSI if not specified
+  folder: "kubernetes"													# Folder on the storage array where PVC(volume) is stored ## optional	
+  syncOnDetach: "True"													# PVC(volume) control feature that defaults to "false" ## optional
+  destroyOnDelete: "True"												# Deletes PVC(volume) on array when deleted from Kubernetes ## optional
+allowVolumeExpansion: true												# If not specified prior to PVC(volume) creation it will not be able to extend ## optional]]></ac:plain-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="3ae9cf5c-a3fd-4cc6-b49e-26f9cca384d3"><ac:parameter ac:name="bgColor">white</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="3c4168de-50f1-4402-afad-8535638b6489"><ac:parameter ac:name="border">true</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="aeb6242c-ffcc-40bd-9a62-2358b1eca495"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<h2>Create PVC</h2>
+<p class="auto-cursor-target">Use <a href="https://scod.hpedev.io/csi_driver/using.html#create_a_persistentvolumeclaim_from_a_storageclass:~:text=Create%20a%20PersistentVolumeClaim.%20This%20object%20declaration%20ensures%20a%20PersistentVolume%20is%20created%20and%20provisioned%20on%20your%20behalf%2C%20make%20sure%20to%20reference%20the%20correct%20.spec.storageClassName%3A">SCOD</a> to create PVC YAML file </p>
+<p class="auto-cursor-target"><br /></p>
+<p class="auto-cursor-target"><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="72d7a7c8-8a0f-40b1-91de-16201f683312"><ac:parameter ac:name="borderStyle">solid</ac:parameter><ac:parameter ac:name="title">Syntax</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="noformat" ac:schema-version="1" ac:macro-id="d11cf11f-3c6f-4065-9ad6-65eb14a5bfe9"><ac:parameter ac:name="nopanel">true</ac:parameter><ac:plain-text-body><![CDATA[kubectl apply -f <pvc name>.yaml]]></ac:plain-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="ff3968b8-4ac3-474e-8d79-69c8413b2326"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<p><ac:image ac:height="80"><ri:attachment ri:filename="image-2024-1-25_13-15-46.png" /></ac:image></p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="6941f8e1-52bf-4081-bb53-8929ff9c3755"><ac:parameter ac:name="border">true</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="f8f204f5-a10a-473e-8594-1e679fd7a604"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="code" ac:schema-version="1" ac:macro-id="5cf00792-489d-46f9-8330-3ac85459483c"><ac:parameter ac:name="language">bash</ac:parameter><ac:parameter ac:name="theme">Emacs</ac:parameter><ac:parameter ac:name="title">Example of PVC YAML</ac:parameter><ac:parameter ac:name="collapse">true</ac:parameter><ac:plain-text-body><![CDATA[apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: my-first-pvc
+spec:
+  accessModes:
+  - ReadWriteOnce
+  resources:
+    requests:
+      storage: 32Gi				# Size of PVC/Volume on the Nimble/Alletra
+  storageClassName: hpe-scod	# Storage Class name ]]></ac:plain-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="7783c17a-fd79-4216-8aee-154be7817f7b"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<p><ac:placeholder>Leave Blank </ac:placeholder></p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="9bc8af7b-b858-4891-8dee-3b6f5f6460c4"><ac:parameter ac:name="bgColor">white</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="a620bc10-4493-49ad-b15e-f82137a59d5b"><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="b25967e2-c2de-4a5f-9e7c-821fb010b7aa"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<h2>Create Pod</h2>
+<p class="auto-cursor-target">Pod is the container the customer is running and this should be already created with a reference to the PVC it is mounting</p>
+<p class="auto-cursor-target"><br /></p>
+<p class="auto-cursor-target"><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="569f7d89-ec56-41d2-add6-5b377d982c2a"><ac:parameter ac:name="borderStyle">solid</ac:parameter><ac:parameter ac:name="title">Syntax</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="noformat" ac:schema-version="1" ac:macro-id="863e3a66-2f34-4caa-b7b1-958341ff3c01"><ac:parameter ac:name="nopanel">true</ac:parameter><ac:plain-text-body><![CDATA[kubectl apply -f <pod name>.yaml]]></ac:plain-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="f2bd1309-bee2-4a0b-a936-4ba9f1ad3fbe"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<p><ac:image><ri:attachment ri:filename="image-2024-1-25_13-26-30.png" /></ac:image></p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="50d7c98c-6aee-4020-8769-a509bd2d36a5"><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="a5881d06-f65f-4415-ad06-0bcfba30979e"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="code" ac:schema-version="1" ac:macro-id="1d559065-0797-47d8-8e6e-b690741d5930"><ac:parameter ac:name="language">bash</ac:parameter><ac:parameter ac:name="theme">Emacs</ac:parameter><ac:parameter ac:name="title">Example of PVC YAML</ac:parameter><ac:parameter ac:name="collapse">true</ac:parameter><ac:plain-text-body><![CDATA[kind: Pod
+apiVersion: v1
+metadata:
+  name: my-pod
+spec:
+  containers:
+    - name: pod-datelog-1
+      image: nginx
+      command: ["bin/sh"]
+      args: ["-c", "while true; do date >> /data/mydata.txt; sleep 1; done"]
+      volumeMounts:
+        - name: export1
+          mountPath: /data
+    - name: pod-datelog-2
+      image: debian
+      command: ["bin/sh"]
+      args: ["-c", "while true; do date >> /data/mydata.txt; sleep 1; done"]
+      volumeMounts:
+        - name: export1
+          mountPath: /data					# Mount point within the container for the PVC
+  volumes:
+    - name: export1
+      persistentVolumeClaim:
+        claimName: my-first-pvc				# PVC that is already created]]></ac:plain-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="eb1ec95a-b54b-4271-b95d-8aa4b9ca5f1b"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<p><ac:placeholder>Leave Blank </ac:placeholder></p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:layout-cell></ac:layout-section><ac:layout-section ac:type="single"><ac:layout-cell>
+<p><ac:structured-macro ac:name="anchor" ac:schema-version="1" ac:macro-id="a5f0857e-59f5-4e8c-8282-fafdc898b5ba"><ac:parameter ac:name="">section_2</ac:parameter></ac:structured-macro> <ac:link ac:anchor="TOP"><ac:plain-text-link-body><![CDATA[Return to top]]></ac:plain-text-link-body></ac:link></p><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="d6cc532c-53cc-4052-9573-0248708e45e6"><ac:parameter ac:name="bgColor">#0D5265</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="f6b75d3b-766e-46b0-af97-2d847a6d562f"><ac:parameter ac:name="bgColor">white</ac:parameter><ac:rich-text-body>
+<h1>Order of Operations</h1>
+<p>What is happening during each process</p></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="db433e15-d42c-4c5b-8515-26da2e972c48"><ac:parameter ac:name="bgColor">white</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="84a43676-8dae-44c5-bdef-199e24f52ea5"><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="15766be8-194f-42c4-b1cf-612d1caaf2cf"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<h2>Secret creation</h2>
+<p class="auto-cursor-target">Access to the array is created allowing the Kubernetes/OpenShift control nodes to authenticate to the array. </p>
+<p class="auto-cursor-target"><br /></p>
+<p class="auto-cursor-target"><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="7e78c74e-3674-4898-8f25-7342297615e2"><ac:parameter ac:name="borderStyle">solid</ac:parameter><ac:parameter ac:name="title">Syntax</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="noformat" ac:schema-version="1" ac:macro-id="099c146c-0dcf-4f37-9036-69336b724e9c"><ac:parameter ac:name="nopanel">true</ac:parameter><ac:plain-text-body><![CDATA[Replace this with Command Syntax]]></ac:plain-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="8247ef91-4489-4372-a9a6-a89b5d94ef79"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<p><ac:image><ri:attachment ri:filename="1280x720_placeholder.jpg"><ri:page ri:space-key="~alfischels" ri:content-title="Templates for Writing Style" /></ri:attachment></ac:image></p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="c3a92fe9-784a-4823-b0db-f7c425242fbc"><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="bc718005-c480-4200-81ed-e39ab8f15074"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="expand" ac:schema-version="1" ac:macro-id="8a1dfcd6-75d6-44fb-a23d-f13306ceab2c"><ac:parameter ac:name="title">Expand for an Example...</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="noformat" ac:schema-version="1" ac:macro-id="eb70ccf8-4e1f-40d9-8bf5-96a36003620a"><ac:plain-text-body><![CDATA[Replace with Output from CLI]]></ac:plain-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="7413de9f-bd05-4c70-8874-83a56326d6cc"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<p><ac:placeholder>Leave Blank </ac:placeholder></p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="e2ddeb3d-7c32-4652-8ea7-75809f0003a0"><ac:parameter ac:name="bgColor">white</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="098382d8-5c3e-4756-b806-b45717227588"><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="6069521f-f8c9-43c6-b6ce-a3951d0eb452"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<h2>Storage Class creation</h2>
+<p class="auto-cursor-target">Instructions for PVC(volumes) are made specifying protocol(FC/iSCSI), folder on the array, allowing for volume expansion, etc... </p>
+<p class="auto-cursor-target"><br /></p>
+<p class="auto-cursor-target"><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="928040af-831c-4a51-9eb2-10dae874e9db"><ac:parameter ac:name="borderStyle">solid</ac:parameter><ac:parameter ac:name="title">Syntax</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="noformat" ac:schema-version="1" ac:macro-id="f501c2ed-cd50-4534-a21c-b3c05476f345"><ac:parameter ac:name="nopanel">true</ac:parameter><ac:plain-text-body><![CDATA[Replace this with Command Syntax]]></ac:plain-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="73a434be-afd8-40c6-8fdf-8f268d98ef9f"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<p><ac:image><ri:attachment ri:filename="1280x720_placeholder.jpg"><ri:page ri:space-key="~alfischels" ri:content-title="Templates for Writing Style" /></ri:attachment></ac:image></p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="e6f689ec-202a-49fd-807e-d7f56d94f380"><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="0ed0aa15-a4e6-446b-821e-509a86f6be6c"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="expand" ac:schema-version="1" ac:macro-id="245a0e4a-baf7-4135-a8c5-1be76c0315fa"><ac:parameter ac:name="title">Expand for an Example...</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="noformat" ac:schema-version="1" ac:macro-id="82e1171d-dfb0-4804-8f17-aaafd40e99c9"><ac:plain-text-body><![CDATA[Replace with Output from CLI]]></ac:plain-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="b6661711-6068-486d-a3ae-d499ae95b973"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<p><ac:placeholder>Leave Blank </ac:placeholder></p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="3b7ca790-e3b5-4974-96fb-cdce2c2926b0"><ac:parameter ac:name="bgColor">white</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="cda615a0-8fcc-4f63-b64d-d832c7739b80"><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="c0a021a8-8294-4a8d-b613-fa3103de2e58"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<h2>PVC creation</h2>
+<p class="auto-cursor-target">The PVC/volume is created on the array, however the initiator group is not created and no storage connectivity will happen till the pod/container is created.</p>
+<p class="auto-cursor-target"><br /></p>
+<p class="auto-cursor-target"><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="14dfa778-0ee1-4c94-8407-f00d88013fd3"><ac:parameter ac:name="borderStyle">solid</ac:parameter><ac:parameter ac:name="title">Syntax</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="noformat" ac:schema-version="1" ac:macro-id="8253de15-b287-4f99-9265-b3b3f902c62c"><ac:parameter ac:name="nopanel">true</ac:parameter><ac:plain-text-body><![CDATA[Replace this with Command Syntax]]></ac:plain-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="3d7bd055-3256-42db-88fe-89952ce1b8b3"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<p><ac:image><ri:attachment ri:filename="1280x720_placeholder.jpg"><ri:page ri:space-key="~alfischels" ri:content-title="Templates for Writing Style" /></ri:attachment></ac:image></p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="698b14a2-08c5-4fe4-994e-f79bd2b50284"><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="0123c49c-202d-439f-a8a7-e2ca4a274ab4"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="expand" ac:schema-version="1" ac:macro-id="e4242451-6e5e-40f2-86f6-1762c051b8a7"><ac:parameter ac:name="title">Expand for an Example...</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="noformat" ac:schema-version="1" ac:macro-id="d3a73e29-519e-45af-b697-af1d15713254"><ac:plain-text-body><![CDATA[Replace with Output from CLI]]></ac:plain-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="9a8c6937-f915-4664-b9be-2b21ecb78c9a"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<p><ac:placeholder>Leave Blank </ac:placeholder></p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="7d6a6933-7cc8-42db-99f8-115d0b767fa7"><ac:parameter ac:name="bgColor">white</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="d6bd7b53-2e87-4c90-8090-c1094760ae1a"><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="cf617e76-c7d9-42c9-bb20-62f7ecb03460"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<h2>Pod creation</h2>
+<p class="auto-cursor-target">Pod will go to either an internal or external(Docker hub) repo to pull down the container image</p>
+<p class="auto-cursor-target"><br /></p>
+<ul>
+<li class="auto-cursor-target">Image is downloaded and pod created</li>
+<li class="auto-cursor-target">Initiator group for PVC is created</li>
+<li class="auto-cursor-target">PVC is mounted to the pod
+<ul>
+<li class="auto-cursor-target">Filesystem is formatted to the PVC(per the filesystem specified in the storage class)</li>
+<li class="auto-cursor-target">The iSCSI/FC mounts will exist on the worker node where the pod exist</li></ul></li></ul>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="6dce3ddb-e128-4748-986f-15635ad3f6af"><ac:parameter ac:name="borderStyle">solid</ac:parameter><ac:parameter ac:name="title">Syntax</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="noformat" ac:schema-version="1" ac:macro-id="c6ea27ab-2837-4d8d-963e-33cd103abd18"><ac:parameter ac:name="nopanel">true</ac:parameter><ac:plain-text-body><![CDATA[kubectl exec --it <pod-name> – df -h]]></ac:plain-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="c6c9bbd8-3fc4-4e9a-9fc1-f2aa882a1b8e"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<p><ac:image><ri:attachment ri:filename="image-2024-1-25_13-56-17.png" /></ac:image></p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="bc98a74a-43d6-421b-acbd-4084e69c4d31"><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="33817e31-72e3-4956-8b75-255e2a228fb6"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="code" ac:schema-version="1" ac:macro-id="e8fcc744-01c2-4672-adac-1c3f5c9e1f48"><ac:parameter ac:name="language">bash</ac:parameter><ac:parameter ac:name="theme">Emacs</ac:parameter><ac:parameter ac:name="title">To see the mount inside of container</ac:parameter><ac:plain-text-body><![CDATA[kubectl exec -it my-pod -- df -h
+                    Defaulted container "pod-datelog-1" out of: pod-datelog-1, pod-datelog-2
+                    Filesystem           Size  Used Avail Use% Mounted on
+                    overlay               49G   21G   26G  45% /
+                    tmpfs                 64M     0   64M   0% /dev
+                    tmpfs                3.9G     0  3.9G   0% /sys/fs/cgroup
+                    /dev/mapper/mpathap   50G  390M   50G   1% /data 				# Mount of the PVC inside of the container
+                    /dev/sda5             49G   21G   26G  45% /etc/hosts
+                    shm                   64M     0   64M   0% /dev/shm
+                    tmpfs                7.7G   12K  7.7G   1% /run/secrets/kubernetes.io/serviceaccount
+                    tmpfs                3.9G     0  3.9G   0% /proc/acpi
+                    tmpfs                3.9G     0  3.9G   0% /proc/scsi
+                    tmpfs                3.9G     0  3.9G   0% /sys/firmware]]></ac:plain-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="ee381c64-222d-4a90-a0e4-c5c239c8578b"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<p><ac:placeholder>Leave Blank </ac:placeholder></p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:layout-cell></ac:layout-section><ac:layout-section ac:type="single"><ac:layout-cell>
+<p><ac:structured-macro ac:name="anchor" ac:schema-version="1" ac:macro-id="30308487-41f1-41a5-b948-6176f4432954"><ac:parameter ac:name="">section_3</ac:parameter></ac:structured-macro> <ac:link ac:anchor="TOP"><ac:plain-text-link-body><![CDATA[Return to top]]></ac:plain-text-link-body></ac:link></p><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="74676f93-3bb5-4f4e-913d-812f42980a77"><ac:parameter ac:name="bgColor">#ff8300</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="08d3b890-8d8b-4256-b5fc-8903084d2fc7"><ac:parameter ac:name="bgColor">white</ac:parameter><ac:rich-text-body>
+<h1><ac:placeholder>section 3 </ac:placeholder></h1>
+<p><ac:placeholder>Description of Section 3</ac:placeholder></p></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="37ea197a-b79f-4617-8b91-4792f8fee80b"><ac:parameter ac:name="bgColor">white</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="8f142d26-89f9-4dd5-8b27-72207600b6c7"><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="9a260c6e-88c3-4c28-8d3b-e6a45f5bf861"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<h2><ac:placeholder>Step 1 </ac:placeholder></h2><ac:structured-macro ac:name="tip" ac:schema-version="1" ac:macro-id="dd2b4957-64f9-4100-84d6-cace10c207fd"><ac:rich-text-body>
+<p class="auto-cursor-target"><ac:placeholder>tip if needed </ac:placeholder></p></ac:rich-text-body></ac:structured-macro>
+<p class="auto-cursor-target"><ac:placeholder>Description of the Step. Be sure to line break enough times to properly orient the text with the media on the right. </ac:placeholder></p>
+<p class="auto-cursor-target"><br /></p>
+<p class="auto-cursor-target"><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="1b4934d9-6ca7-426c-bf81-4cd2c046628d"><ac:parameter ac:name="borderStyle">solid</ac:parameter><ac:parameter ac:name="title">Syntax</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="noformat" ac:schema-version="1" ac:macro-id="71e28ba5-8de8-4fad-b1a6-4e4e7e8e89ae"><ac:parameter ac:name="nopanel">true</ac:parameter><ac:plain-text-body><![CDATA[Replace this with Command Syntax]]></ac:plain-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="6fdedf3c-a382-4cdb-97b5-fb7c88c8c1cd"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<p><ac:image><ri:attachment ri:filename="1280x720_placeholder.jpg"><ri:page ri:space-key="~alfischels" ri:content-title="Templates for Writing Style" /></ri:attachment></ac:image></p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="17e00ce2-d2e3-4364-9712-02b31a3501a2"><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="78f3d2c3-1a68-4a2d-ad29-f0cf1b70172b"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="expand" ac:schema-version="1" ac:macro-id="59a42ffd-4b59-4acd-b08e-4a724c44998f"><ac:parameter ac:name="title">Expand for an Example...</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="noformat" ac:schema-version="1" ac:macro-id="33a58f8f-de7e-458a-934f-9ddd04645fd0"><ac:plain-text-body><![CDATA[Replace with Output from CLI]]></ac:plain-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="cf1bb1ed-8cf0-4ca3-9a67-af98362a6910"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<p><ac:placeholder>Leave Blank </ac:placeholder></p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="f70d09f0-71b4-4acd-a23b-c65097ec274c"><ac:parameter ac:name="bgColor">white</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="99f73b27-25ac-4639-961f-da22328de6d4"><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="95243ec9-fbda-4f73-827d-9caa2bf77596"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<h2><ac:placeholder>Step 2 </ac:placeholder></h2>
+<p class="auto-cursor-target"><ac:placeholder>Description of the Step. Be sure to line break enough times to properly orient the text with the media on the right. </ac:placeholder></p>
+<p class="auto-cursor-target"><br /></p>
+<p class="auto-cursor-target"><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="c2c72268-fe0f-49c5-bef7-45ccb562021e"><ac:parameter ac:name="borderStyle">solid</ac:parameter><ac:parameter ac:name="title">Syntax</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="noformat" ac:schema-version="1" ac:macro-id="2b284b01-a296-46f1-81f7-f29f8148314a"><ac:parameter ac:name="nopanel">true</ac:parameter><ac:plain-text-body><![CDATA[Replace this with Command Syntax]]></ac:plain-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="ab1c4880-9917-4b35-80e9-b8f97ea5e556"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<p><ac:image><ri:attachment ri:filename="1280x720_placeholder.jpg"><ri:page ri:space-key="~alfischels" ri:content-title="Templates for Writing Style" /></ri:attachment></ac:image></p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="6e9e9c31-94ac-404f-b7aa-486458fede94"><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="82f541ce-4798-48be-8a20-409490167b63"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="expand" ac:schema-version="1" ac:macro-id="0143936d-4e05-4f64-b6b3-547617c85863"><ac:parameter ac:name="title">Expand for an Example...</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="noformat" ac:schema-version="1" ac:macro-id="a0c21f6b-24a2-4013-8772-a2affaedf0c4"><ac:plain-text-body><![CDATA[Replace with Output from CLI]]></ac:plain-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="b3f7e027-da8a-405c-9c54-f840f3512a85"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<p><ac:placeholder>Leave Blank </ac:placeholder></p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="9a4f8b93-aed2-49e0-9f57-f35b63448bc2"><ac:parameter ac:name="bgColor">white</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="f0930cc9-2e21-4438-abf5-5cdc176c6df2"><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="e761cc14-a302-4f8d-af0c-5a65a2fe8aec"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<h2><ac:placeholder>Step 3 </ac:placeholder></h2>
+<p class="auto-cursor-target"><ac:placeholder>Description of the Step. Be sure to line break enough times to properly orient the text with the media on the right. </ac:placeholder></p>
+<p class="auto-cursor-target"><br /></p>
+<p class="auto-cursor-target"><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="f0c403ba-56d8-4558-af74-ce78e4d7e48d"><ac:parameter ac:name="borderStyle">solid</ac:parameter><ac:parameter ac:name="title">Syntax</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="noformat" ac:schema-version="1" ac:macro-id="62d7d8e8-077d-4ab4-8a9e-e35b1bb8fea0"><ac:parameter ac:name="nopanel">true</ac:parameter><ac:plain-text-body><![CDATA[Replace this with Command Syntax]]></ac:plain-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="fb433176-4e1c-4ba9-a3e4-ef5c1771d889"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<p><ac:image><ri:attachment ri:filename="1280x720_placeholder.jpg"><ri:page ri:space-key="~alfischels" ri:content-title="Templates for Writing Style" /></ri:attachment></ac:image></p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="6339d8cd-4716-480c-9720-ea852cd0588f"><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="5c42d352-c8ab-4542-b1a9-17e8c81f2aee"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="expand" ac:schema-version="1" ac:macro-id="be6cfed6-767a-4d25-a8b1-03e6a35bade3"><ac:parameter ac:name="title">Expand for an Example...</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="noformat" ac:schema-version="1" ac:macro-id="bcd52e39-dbf6-4134-b346-4a111b183b63"><ac:plain-text-body><![CDATA[Replace with Output from CLI]]></ac:plain-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="3ceb359e-2c17-4ce6-8a59-8386aa0756c2"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<p><ac:placeholder>Leave Blank </ac:placeholder></p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="291a7fd9-e683-48c1-8974-8d4ecd93f3ed"><ac:parameter ac:name="bgColor">white</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="7bdcc2c8-1d3b-4aaf-8fbe-7a75befb1db1"><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="bf9696f5-1e55-40a2-89b7-4f5a095f779c"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<h2><ac:placeholder>Step 4 </ac:placeholder></h2>
+<p class="auto-cursor-target"><ac:placeholder>Description of the Step. Be sure to line break enough times to properly orient the text with the media on the right. </ac:placeholder></p>
+<p class="auto-cursor-target"><br /></p>
+<p class="auto-cursor-target"><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="1c57c7f0-cad7-45d0-9556-160555bfc917"><ac:parameter ac:name="borderStyle">solid</ac:parameter><ac:parameter ac:name="title">Syntax</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="noformat" ac:schema-version="1" ac:macro-id="c771d3f5-c2d5-4dc7-aaea-d6cc12eb8792"><ac:parameter ac:name="nopanel">true</ac:parameter><ac:plain-text-body><![CDATA[Replace this with Command Syntax]]></ac:plain-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="23ab8907-219e-4c20-bb82-cc80d2a2f8ff"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<p><ac:image><ri:attachment ri:filename="1280x720_placeholder.jpg"><ri:page ri:space-key="~alfischels" ri:content-title="Templates for Writing Style" /></ri:attachment></ac:image></p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="f81ba992-06ce-4314-b367-7bd06b37ca9e"><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="5820162f-321d-4ca9-801a-ad5fd51a79e3"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="expand" ac:schema-version="1" ac:macro-id="496ae959-f96c-4b2e-ab73-78fa97bafedb"><ac:parameter ac:name="title">Expand for an Example...</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="noformat" ac:schema-version="1" ac:macro-id="e4b0bdac-4ccd-4e06-9c96-91d9bef950a3"><ac:plain-text-body><![CDATA[Replace with Output from CLI]]></ac:plain-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="c7a3d6bb-67d3-4157-942b-adf1931249e4"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<p><ac:placeholder>Leave Blank </ac:placeholder></p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:layout-cell></ac:layout-section><ac:layout-section ac:type="single"><ac:layout-cell>
+<p><ac:structured-macro ac:name="anchor" ac:schema-version="1" ac:macro-id="054cef9e-1c32-47a5-a521-02366eda7b35"><ac:parameter ac:name="">FAQ</ac:parameter></ac:structured-macro> <ac:link ac:anchor="TOP"><ac:plain-text-link-body><![CDATA[Return to top]]></ac:plain-text-link-body></ac:link></p><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="1e130fae-f744-4c9c-8e4b-c0934ab13299"><ac:parameter ac:name="bgColor">#7630EA</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="94654fc7-ff10-4cc9-b17c-c8d8b93dbd4a"><ac:parameter ac:name="bgColor">white</ac:parameter><ac:rich-text-body>
+<h1>Frequently Asked Questions</h1></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="d6b53cca-a11b-4a1a-81f7-591a148e41ce"><ac:parameter ac:name="bgColor">white</ac:parameter><ac:rich-text-body>
+<h3 class="auto-cursor-target"><ac:placeholder>Question </ac:placeholder></h3>
+<p><ac:placeholder>Answer </ac:placeholder></p></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="d59c74f5-4831-409d-b0da-618878614964"><ac:parameter ac:name="bgColor">white</ac:parameter><ac:rich-text-body>
+<h3 class="auto-cursor-target"><ac:placeholder>Question </ac:placeholder></h3>
+<p><ac:placeholder>Answer </ac:placeholder></p></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="3ad183cf-9835-497b-9f7b-c20a974d47de"><ac:parameter ac:name="bgColor">white</ac:parameter><ac:rich-text-body>
+<h3 class="auto-cursor-target"><ac:placeholder>Question </ac:placeholder></h3>
+<p><ac:placeholder>Answer </ac:placeholder></p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro>
+<p><ac:link ac:anchor="TOP"><ac:plain-text-link-body><![CDATA[Return to top]]></ac:plain-text-link-body></ac:link></p></ac:layout-cell></ac:layout-section><ac:layout-section ac:type="single"><ac:layout-cell><ac:structured-macro ac:name="html" ac:schema-version="1" ac:macro-id="e7a891e0-b669-437c-8a73-1c30b53815d8"><ac:parameter ac:name="atlassian-macro-output-type">INLINE</ac:parameter><ac:plain-text-body><![CDATA[<script type="text/javascript" src="https://nimblejira.nimblestorage.com/s/e18777cb2c6831b9f86015f8b1bc41ef-T/kpm0th/74006/11e884700d0d4c43dde93c0e41993be8/2.0.24/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=2df0ef00"></script>
+]]></ac:plain-text-body></ac:structured-macro></ac:layout-cell></ac:layout-section></ac:layout>

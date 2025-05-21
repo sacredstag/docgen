@@ -1,0 +1,19 @@
+<ac:structured-macro ac:name="section">
+  <ac:rich-text-body>
+    <ac:structured-macro ac:name="column">
+      <ac:parameter ac:name="width">100%</ac:parameter>
+      <ac:rich-text-body>
+        <h1>Describe the PVC</h1>
+        <p>Inspect Events section for scheduling issues or reclaim policy mismatch.</p>
+        <ac:structured-macro ac:name="expand">
+          <ac:parameter ac:name="title">CLI Command</ac:parameter>
+          <ac:rich-text-body>
+            <ac:structured-macro ac:name="noformat">
+              <ac:plain-text-body><![CDATA[kubectl describe pvc <claim-name>]]></ac:plain-text-body>
+            </ac:structured-macro>
+          </ac:rich-text-body>
+        </ac:structured-macro>
+      </ac:rich-text-body>
+    </ac:structured-macro>
+  </ac:rich-text-body>
+</ac:structured-macro>

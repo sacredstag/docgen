@@ -1,0 +1,11 @@
+<ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="dc053610-e305-4b1e-a7ba-b4265a0b2bd0"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="code" ac:schema-version="1" ac:macro-id="20f51953-c377-4564-88ec-662a8013301a"><ac:parameter ac:name="language">bash</ac:parameter><ac:parameter ac:name="title">Example Secret YAML file</ac:parameter><ac:parameter ac:name="collapse">true</ac:parameter><ac:plain-text-body><![CDATA[apiVersion: v1
+kind: Secret
+metadata:
+  name: hpe-backend
+  namespace: hpe-storage  
+stringData:
+  serviceName: nimble-csp-svc	# This will be different depending on Alletra or Nimble refer to SCOD
+  servicePort: "8080"
+  backend: 192.168.1.2   		# Management IP for the Nimble/Alletra Array
+  username: admin				# Username for Nimble/Alletra Array
+  password: admin				# Password for Nimble/Alletra Array]]></ac:plain-text-body></ac:structured-macro>

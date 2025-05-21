@@ -1,0 +1,25 @@
+title: Subscription Validation Failure in HPE GreenLake Cloud Console
+audience: L3 GreenLake Support Engineers
+system: HPE Alletra Storage MP + GreenLake Console
+detail: expert
+
+steps:
+  - "Verify Network Connectivity":
+      cmd: ping cloud.hpe.com
+      desc: Check if the array has outbound connectivity to the GreenLake Console endpoints.
+
+  - "Validate Proxy Settings":
+      cmd: show proxy settings
+      desc: Ensure proxy settings are properly configured and reachable from the array.
+
+  - "Test Outbound Ports":
+      cmd: nc -zv cloud.hpe.com 443
+      desc: Confirm that required outbound ports are not blocked by firewalls.
+
+  - "Manually Trigger Subscription Sync":
+      cmd: initiate-subscription-validation
+      desc: Use the array's CLI or UI to manually attempt a subscription re-validation.
+
+  - "Confirm Subscription Status":
+      cmd: show subscription status
+      desc: Ensure the subscription state reflects 'Validated' after successful sync.

@@ -1,0 +1,140 @@
+<!-- Only replace or expand the definitions within the panel structure. Keep the layout intact. -->
+<ac:parameter ac:name="title">Key Terms &amp; Definitions</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="39cab3d5-5b0e-4ae9-bf6c-69d5d41ae7c7"><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="4e4399c1-45d6-4846-83eb-b6504c2b063c"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<h3>Secret</h3>
+<p>Provides access to the array with IP/hostname, username and password</p>
+<h3>Storage Class</h3>
+<p>Set of vendor specific instructions such as protocol(FC/iSCSI/NFS), folder location on array, performance policy, etc...</p></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="a4e41108-e461-4e2a-a6af-5e9487a9a943"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<h3>PVC(Persistent Volume Claim)</h3>
+<p>Request for a PV(persistent volume) to be create. Persistent volume being the volume that exists on the <span style="color: rgb(23,43,77);">HPE storage array</span>.</p>
+<h3>Pod </h3>
+<p>A<span> </span><span style="color: rgb(23,43,77);">group of one or more containers, with shared storage and network resources, and a specification for how to run the containers</span></p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:layout-cell></ac:layout-section><ac:layout-section ac:type="single"><ac:layout-cell>
+<p><br /></p>
+<hr />
+<p><br /></p></ac:layout-cell></ac:layout-section><ac:layout-section ac:type="single"><ac:layout-cell><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="06cd4daf-cbee-460d-8198-26f0d08b2bb7"><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="a223fbdd-6f53-4d2b-837b-d60ba8ec58c1"><ac:parameter ac:name="width">25%</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="883e8a50-b3ca-4beb-864e-e070361b8e14"><ac:parameter ac:name="borderColor">#01a982</ac:parameter><ac:parameter ac:name="borderWidth">10</ac:parameter><ac:parameter ac:name="titleBGColor">#01a982</ac:parameter><ac:rich-text-body>
+<h3 style="text-align: center;"><ac:link ac:anchor="section_1"><ac:plain-text-link-body><![CDATA[Secret Creation]]></ac:plain-text-link-body></ac:link></h3></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="a56f6823-e454-4593-9de2-817e5848d9f7"><ac:parameter ac:name="width">25%</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="37080b60-9033-4dd6-ae58-0ea1be9e6b7c"><ac:parameter ac:name="borderColor">#0D5265</ac:parameter><ac:parameter ac:name="borderWidth">10</ac:parameter><ac:parameter ac:name="titleBGColor">#32DAC8</ac:parameter><ac:rich-text-body>
+<h3 style="text-align: center;"><ac:placeholder>Section 2 Name + H3 + Center + Hyperlink to Anchor &quot;#Section_Name&quot; </ac:placeholder></h3></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="2ebc7ff0-571f-49d2-bf06-31b2bb6c2c4b"><ac:parameter ac:name="width">25%</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="2b3a73e9-bf81-474c-a640-462366d1d49b"><ac:parameter ac:name="borderColor">#ff8300</ac:parameter><ac:parameter ac:name="borderWidth">10</ac:parameter><ac:parameter ac:name="titleBGColor">#7630EA</ac:parameter><ac:rich-text-body>
+<h3 style="text-align: center;"><ac:placeholder>Section 3 Name + H3 + Center + Hyperlink to Anchor &quot;#Section_Name&quot; </ac:placeholder></h3></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="93b17646-005d-47e8-b4fa-c8483649a09a"><ac:parameter ac:name="width">25%</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="f6585e9d-ee95-4364-820d-b2548f60962f"><ac:parameter ac:name="borderColor">#7630EA</ac:parameter><ac:parameter ac:name="borderWidth">10</ac:parameter><ac:parameter ac:name="titleBGColor">#FEC901</ac:parameter><ac:rich-text-body>
+<h3 style="text-align: center;"><ac:link><ac:plain-text-link-body><![CDATA[Frequently Asked Questions]]></ac:plain-text-link-body></ac:link></h3></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:layout-cell></ac:layout-section><ac:layout-section ac:type="single"><ac:layout-cell>
+<p><br /></p>
+<hr />
+<p><br /></p></ac:layout-cell></ac:layout-section><ac:layout-section ac:type="single"><ac:layout-cell>
+<p><ac:structured-macro ac:name="anchor" ac:schema-version="1" ac:macro-id="a9c1c10c-c77c-43a0-9210-69d2932355bd"><ac:parameter ac:name="">section_1</ac:parameter></ac:structured-macro></p><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="9d9cdc84-7d15-4159-8914-6764f82808ad"><ac:parameter ac:name="bgColor">#01A982</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="646570d5-71ab-4bfd-9fbc-5187664729ac"><ac:parameter ac:name="bgColor">white</ac:parameter><ac:rich-text-body>
+<h1>Secret creation</h1>
+<p>Use <a href="https://scod.hpedev.io/csi_driver/deployment.html#create_a_storageclass_with_the_custom_secret:~:text=storage%20backend.-,Add%20an%20HPE%20Storage%20Backend,-%C2%B6">SCOD</a> to create a secret YAML file for a set of instructions to connect to storage</p></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="2bfa46ee-5370-4caa-9171-95f9d1e49c88"><ac:parameter ac:name="bgColor">white</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="4981c064-856f-44b9-808d-6f8d2cc19870"><ac:parameter ac:name="border">true</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="dca4e03c-4d32-4b89-95b2-ba2a9878cc85"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<h2>Create the secret YAML file</h2><ac:structured-macro ac:name="tip" ac:schema-version="1" ac:macro-id="0feba88d-cc3b-4cbb-8d37-c813f1df54dc"><ac:rich-text-body>
+<p><span style="color: rgb(64,64,64);">In a real world scenario it's more practical to name the<span> </span></span><code>Secret</code><span style="color: rgb(64,64,64);"><span> </span>something that makes sense for the organization. It could be the hostname of the backend or the role it carries, i.e &quot;hpe-alletra-sanjose-prod&quot;.</span></p></ac:rich-text-body></ac:structured-macro>
+<p class="auto-cursor-target"><ac:placeholder>Description of the Step. Be sure to line break enough times to properly orient the text with the media on the right. </ac:placeholder></p>
+<p class="auto-cursor-target"><br /></p>
+<p class="auto-cursor-target"><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="33d114f8-2265-4e44-81c9-47e5699bea8d"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<p><ac:image><ri:attachment ri:filename="image-2024-1-25_10-1-7.png" /></ac:image></p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="1fb864f5-2e5d-4ddb-a73d-cfd90c460fd5"><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="dc053610-e305-4b1e-a7ba-b4265a0b2bd0"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="code" ac:schema-version="1" ac:macro-id="20f51953-c377-4564-88ec-662a8013301a"><ac:parameter ac:name="language">bash</ac:parameter><ac:parameter ac:name="title">Example Secret YAML file</ac:parameter><ac:parameter ac:name="collapse">true</ac:parameter><ac:plain-text-body><![CDATA[apiVersion: v1
+kind: Secret
+metadata:
+  name: hpe-backend
+  namespace: hpe-storage  
+stringData:
+  serviceName: nimble-csp-svc	# This will be different depending on Alletra or Nimble refer to SCOD
+  servicePort: "8080"
+  backend: 192.168.1.2   		# Management IP for the Nimble/Alletra Array
+  username: admin				# Username for Nimble/Alletra Array
+  password: admin				# Password for Nimble/Alletra Array]]></ac:plain-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="cbbd7598-d6c5-46b9-8777-4228422251f3"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<p><ac:placeholder>Leave Blank </ac:placeholder></p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="a36112de-8f72-4950-b12d-b675a16ccff9"><ac:parameter ac:name="bgColor">white</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="01a8b47e-f696-4c27-9392-96c5e8093977"><ac:parameter ac:name="border">true</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="b7b0d49f-5f2d-47c5-bc4a-47a9735f5dde"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<h2>Storage Class Creation</h2>
+<p class="auto-cursor-target">Use <a href="https://scod.hpedev.io/csi_driver/deployment.html#create_a_storageclass_with_the_custom_secret:~:text=Opaque%20%20%20%20%20%20%20%205%20%20%20%20%20%20%20%20%201m-,Create%20a%20StorageClass%20with%20the%20Custom%20Secret,-%C2%B6">SCOD</a> to create a storage class YAML file for a set of vendor specific instructions for creating PVC(Volumes)</p>
+<p class="auto-cursor-target"><br /></p>
+<p class="auto-cursor-target"><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="0b386a73-36fa-4005-bc70-18d79aea0913"><ac:parameter ac:name="borderStyle">solid</ac:parameter><ac:parameter ac:name="title">Syntax</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="noformat" ac:schema-version="1" ac:macro-id="4ff4ddc8-eed2-44ce-99b3-fde5df6f69b3"><ac:parameter ac:name="nopanel">true</ac:parameter><ac:plain-text-body><![CDATA[kubectl apply -f <storageclass name>.yaml]]></ac:plain-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="5de68671-be78-44e2-895b-8ff934a42b93"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<p><ac:image ac:height="82"><ri:attachment ri:filename="image-2024-1-25_13-9-0.png" /></ac:image></p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="46d122c8-6745-494d-ab32-fcfc3e41f86a"><ac:parameter ac:name="border">true</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="0b1d83cc-3b58-494e-97e2-bed1f5419e17"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="code" ac:schema-version="1" ac:macro-id="cb5f461a-25e5-4514-bf97-f22405cb70ea"><ac:parameter ac:name="language">bash</ac:parameter><ac:parameter ac:name="theme">Emacs</ac:parameter><ac:parameter ac:name="title">Example of Storage Class YAML</ac:parameter><ac:parameter ac:name="collapse">true</ac:parameter><ac:plain-text-body><![CDATA[apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  name: hpe-standard
+  annotations:
+    storageclass.kubernetes.io/is-default-class: "true"
+provisioner: csi.hpe.com
+parameters:
+  csi.storage.k8s.io/fstype: xfs										# Filesystem that will be mounted inside the pod
+  csi.storage.k8s.io/provisioner-secret-name: custom-secret				# Secret is referenced allowing connectivity to the array
+  csi.storage.k8s.io/provisioner-secret-namespace: hpe-storage
+  csi.storage.k8s.io/controller-publish-secret-name: custom-secret
+  csi.storage.k8s.io/controller-publish-secret-namespace: hpe-storage
+  csi.storage.k8s.io/node-stage-secret-name: custom-secret
+  csi.storage.k8s.io/node-stage-secret-namespace: hpe-storage
+  csi.storage.k8s.io/node-publish-secret-name: custom-secret
+  csi.storage.k8s.io/node-publish-secret-namespace: hpe-storage
+  csi.storage.k8s.io/controller-expand-secret-name: custom-secret
+  csi.storage.k8s.io/controller-expand-secret-namespace: hpe-storage
+  performancePolicy: "default"											# Performance policy on the array(case sensitive)
+  description: "Volume from HPE CSI Driver"
+  accessProtocol: iscsi													# Protocol for connecting storage (iSCSI/FC) ## will default to iSCSI if not specified
+  folder: "kubernetes"													# Folder on the storage array where PVC(volume) is stored ## optional	
+  syncOnDetach: "True"													# PVC(volume) control feature that defaults to "false" ## optional
+  destroyOnDelete: "True"												# Deletes PVC(volume) on array when deleted from Kubernetes ## optional
+allowVolumeExpansion: true												# If not specified prior to PVC(volume) creation it will not be able to extend ## optional]]></ac:plain-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="3ae9cf5c-a3fd-4cc6-b49e-26f9cca384d3"><ac:parameter ac:name="bgColor">white</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="3c4168de-50f1-4402-afad-8535638b6489"><ac:parameter ac:name="border">true</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="aeb6242c-ffcc-40bd-9a62-2358b1eca495"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<h2>Create PVC</h2>
+<p class="auto-cursor-target">Use <a href="https://scod.hpedev.io/csi_driver/using.html#create_a_persistentvolumeclaim_from_a_storageclass:~:text=Create%20a%20PersistentVolumeClaim.%20This%20object%20declaration%20ensures%20a%20PersistentVolume%20is%20created%20and%20provisioned%20on%20your%20behalf%2C%20make%20sure%20to%20reference%20the%20correct%20.spec.storageClassName%3A">SCOD</a> to create PVC YAML file </p>
+<p class="auto-cursor-target"><br /></p>
+<p class="auto-cursor-target"><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="72d7a7c8-8a0f-40b1-91de-16201f683312"><ac:parameter ac:name="borderStyle">solid</ac:parameter><ac:parameter ac:name="title">Syntax</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="noformat" ac:schema-version="1" ac:macro-id="d11cf11f-3c6f-4065-9ad6-65eb14a5bfe9"><ac:parameter ac:name="nopanel">true</ac:parameter><ac:plain-text-body><![CDATA[kubectl apply -f <pvc name>.yaml]]></ac:plain-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="ff3968b8-4ac3-474e-8d79-69c8413b2326"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<p><ac:image ac:height="80"><ri:attachment ri:filename="image-2024-1-25_13-15-46.png" /></ac:image></p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="6941f8e1-52bf-4081-bb53-8929ff9c3755"><ac:parameter ac:name="border">true</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="f8f204f5-a10a-473e-8594-1e679fd7a604"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="code" ac:schema-version="1" ac:macro-id="5cf00792-489d-46f9-8330-3ac85459483c"><ac:parameter ac:name="language">bash</ac:parameter><ac:parameter ac:name="theme">Emacs</ac:parameter><ac:parameter ac:name="title">Example of PVC YAML</ac:parameter><ac:parameter ac:name="collapse">true</ac:parameter><ac:plain-text-body><![CDATA[apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: my-first-pvc
+spec:
+  accessModes:
+  - ReadWriteOnce
+  resources:
+    requests:
+      storage: 32Gi				# Size of PVC/Volume on the Nimble/Alletra
+  storageClassName: hpe-scod	# Storage Class name ]]></ac:plain-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="7783c17a-fd79-4216-8aee-154be7817f7b"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<p><ac:placeholder>Leave Blank </ac:placeholder></p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="9bc8af7b-b858-4891-8dee-3b6f5f6460c4"><ac:parameter ac:name="bgColor">white</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="a620bc10-4493-49ad-b15e-f82137a59d5b"><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="b25967e2-c2de-4a5f-9e7c-821fb010b7aa"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<h2>Create Pod</h2>
+<p class="auto-cursor-target">Pod is the container the customer is running and this should be already created with a reference to the PVC it is mounting</p>
+<p class="auto-cursor-target"><br /></p>
+<p class="auto-cursor-target"><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="569f7d89-ec56-41d2-add6-5b377d982c2a"><ac:parameter ac:name="borderStyle">solid</ac:parameter><ac:parameter ac:name="title">Syntax</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="noformat" ac:schema-version="1" ac:macro-id="863e3a66-2f34-4caa-b7b1-958341ff3c01"><ac:parameter ac:name="nopanel">true</ac:parameter><ac:plain-text-body><![CDATA[kubectl apply -f <pod name>.yaml]]></ac:plain-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="f2bd1309-bee2-4a0b-a936-4ba9f1ad3fbe"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<p><ac:image><ri:attachment ri:filename="image-2024-1-25_13-26-30.png" /></ac:image></p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="50d7c98c-6aee-4020-8769-a509bd2d36a5"><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="a5881d06-f65f-4415-ad06-0bcfba30979e"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="code" ac:schema-version="1" ac:macro-id="1d559065-0797-47d8-8e6e-b690741d5930"><ac:parameter ac:name="language">bash</ac:parameter><ac:parameter ac:name="theme">Emacs</ac:parameter><ac:parameter ac:name="title">Example of PVC YAML</ac:parameter><ac:parameter ac:name="collapse">true</ac:parameter><ac:plain-text-body><![CDATA[kind: Pod
+apiVersion: v1
+metadata:
+  name: my-pod
+spec:
+  containers:
+    - name: pod-datelog-1
+      image: nginx
+      command: ["bin/sh"]
+      args: ["-c", "while true; do date >> /data/mydata.txt; sleep 1; done"]
+      volumeMounts:
+        - name: export1
+          mountPath: /data
+    - name: pod-datelog-2
+      image: debian
+      command: ["bin/sh"]
+      args: ["-c", "while true; do date >> /data/mydata.txt; sleep 1; done"]
+      volumeMounts:
+        - name: export1
+          mountPath: /data					# Mount point within the container for the PVC
+  volumes:
+    - name: export1
+      persistentVolumeClaim:
+        claimName: my-first-pvc				# PVC that is already created]]></ac:plain-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="eb1ec95a-b54b-4271-b95d-8aa4b9ca5f1b"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<p><ac:placeholder>Leave Blank </ac:placeholder></p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:layout-cell></ac:layout-section><ac:layout-section ac:type="single"><ac:layout-cell>
+<p><ac:structured-macro ac:name="anchor" ac:schema-version="1" ac:macro-id="a5f0857e-59f5-4e8c-8282-fafdc898b5ba"><ac:parameter ac:name="">section_2</ac:parameter></ac:structured-macro> <ac:link ac:anchor="TOP"><ac:plain-text-link-body><![CDATA[Return to top]]></ac:plain-text-link-body></ac:link></p><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="d6cc532c-53cc-4052-9573-0248708e45e6"><ac:parameter ac:name="bgColor">#0D5265</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="f6b75d3b-766e-46b0-af97-2d847a6d562f"><ac:parameter ac:name="bgColor">white</ac:parameter><ac:rich-text-body>

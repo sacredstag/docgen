@@ -1,0 +1,3 @@
+<ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="dca4e03c-4d32-4b89-95b2-ba2a9878cc85"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<h2>Create the secret YAML file</h2><ac:structured-macro ac:name="tip" ac:schema-version="1" ac:macro-id="0feba88d-cc3b-4cbb-8d37-c813f1df54dc"><ac:rich-text-body>
+<p><span style="color: rgb(64,64,64);">In a real world scenario it's more practical to name the<span> </span></span><code>Secret</code><span style="color: rgb(64,64,64);"><span> </span>something that makes sense for the organization. It could be the hostname of the backend or the role it carries, i.e &quot;hpe-alletra-sanjose-prod&quot;.</span></p>

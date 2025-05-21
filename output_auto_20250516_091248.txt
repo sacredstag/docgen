@@ -1,0 +1,247 @@
+```xml
+<ac:layout>
+  <ac:layout-section ac:type="single">
+    <ac:layout-cell>
+      <ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="6558e585-5d64-4967-821f-df000d0d42cd">
+        <ac:parameter ac:name="bgColor">#C54E4B</ac:parameter>
+        <ac:rich-text-body>
+          <ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="f8fdc33b-72ee-40ee-b256-fd98449ebb23">
+            <ac:parameter ac:name="bgColor">white</ac:parameter>
+            <ac:rich-text-body>
+              <ac:structured-macro ac:name="warning" ac:schema-version="1" ac:macro-id="a2a39ca3-a5b4-4534-972d-75d7238fbebd">
+                <ac:rich-text-body>
+                  <h1>This page is a staging page! Nothing on this page should be referenced or used as it's in development and could be incorrect or incomplete.</h1>
+                  <h1>Please use knowledge located on <a href="https://kcs.nido.nim.hpecorp.net/">KCS</a> or <a href="https://confluence.eng.nimblestorage.com/display/KNOW">Support Knowledge</a> instead.</h1>
+                </ac:rich-text-body>
+              </ac:structured-macro>
+              <ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="efd4e516-67fc-4bab-ab53-41986b330702">
+                <ac:rich-text-body>
+                  <ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="8a277354-d815-4ad4-966c-c754b80d7ce2">
+                    <ac:parameter ac:name="width">50%</ac:parameter>
+                    <ac:rich-text-body>
+                      <ac:structured-macro ac:name="details" ac:schema-version="1" ac:macro-id="b366c90e-8346-4ee6-baa1-83d147279e4d">
+                        <ac:rich-text-body>
+                          <table class="wrapped">
+                            <colgroup>
+                              <col />
+                              <col />
+                            </colgroup>
+                            <tbody>
+                              <tr>
+                                <th>KNOW Knowledge Request</th>
+                                <td>
+                                  <div class="content-wrapper">
+                                    <p>
+                                      <ac:structured-macro ac:name="jira" ac:schema-version="1" ac:macro-id="d55e52c9-112e-4ec8-92ca-5568543c5797">
+                                        <ac:parameter ac:name="server">NimbleJIRA</ac:parameter>
+                                        <ac:parameter ac:name="serverId">c21b0b0a-51b1-3a4f-ac8e-272a931a59fb</ac:parameter>
+                                        <ac:parameter ac:name="key">KNOW-2810</ac:parameter>
+                                      </ac:structured-macro>
+                                    </p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <th colspan="1">Knowledge Type</th>
+                                <td colspan="1">Process Doc</td>
+                              </tr>
+                              <tr>
+                                <th>Technical Team</th>
+                                <td>
+                                  <div class="content-wrapper">
+                                    <p>Eco-Other</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <th colspan="1">Technical SME</th>
+                                <td colspan="1">
+                                  <ac:link>
+                                    <ri:user ri:userkey="8a9280416491f3210165827e2d7f003c" />
+                                  </ac:link>
+                                </td>
+                              </tr>
+                              <tr>
+                                <th>Slack Channel</th>
+                                <td>
+                                  <div class="content-wrapper">
+                                    <a href="https://hpe.enterprise.slack.com/archives/C0269GB11C3">https://hpe.enterprise.slack.com/archives/C0269GB11C3</a>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <th colspan="1">Published?</th>
+                                <td colspan="1">
+                                  <ac:emoticon ac:name="cross" />
+                                  <ac:placeholder>When published, delete the red X and type (/) to enter a green check</ac:placeholder>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </ac:rich-text-body>
+                      </ac:structured-macro>
+                      <h3>Building Resources:</h3>
+                      <ul>
+                        <li><a href="https://confluence.eng.nimblestorage.com/x/zlgsBQ">Support Knowledge Staging</a></li>
+                        <li><a href="https://confluence.eng.nimblestorage.com/x/hgP3Bw">Knowledge Creation Workflow</a></li>
+                        <li><a href="https://confluence.eng.nimblestorage.com/x/cLF_BQ">Labels Used by the Knowledge Vertical</a></li>
+                        <li><a href="https://confluence.eng.nimblestorage.com/x/BRUsBQ">Nimble Support Style / Writing Guide</a></li>
+                        <li><a href="https://nimblejira.nimblestorage.com/projects/KNOW/issues/">Knowledge Jira Project</a></li>
+                      </ul>
+                      <p><br /></p>
+                      <ac:structured-macro ac:name="expand" ac:schema-version="1" ac:macro-id="ceee1326-c78f-4f6f-afec-3d7f9b4ddefa">
+                        <ac:parameter ac:name="title">Gliffy Diagram If Needed...</ac:parameter>
+                        <ac:rich-text-body>
+                          <p>If the Gliffy Diagram is needed, Go out to the View, click the 3 dots, and Copy the Diagram to this page. Then Move it to its proper location.</p>
+                          <p><span style="color: rgb(255,0,0);"><strong>DO NOT EDIT THE ORIGINAL</strong></span></p>
+                          <p>If it is <em>not</em> needed, then delete this expand box.</p>
+                          <p>
+                            <ac:structured-macro ac:name="gliffy" ac:schema-version="1" ac:macro-id="240e4002-0f5d-469b-8f56-90cc926fe83b">
+                              <ac:parameter ac:name="size">600</ac:parameter>
+                              <ac:parameter ac:name="name">Troubleshooting Workflow Template</ac:parameter>
+                              <ac:parameter ac:name="pageid">208970019</ac:parameter>
+                              <ac:parameter ac:name="" />
+                            </ac:structured-macro>
+                          </p>
+                        </ac:rich-text-body>
+                      </ac:structured-macro>
+                    </ac:rich-text-body>
+                  </ac:structured-macro>
+                  <ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="0411ea49-08b5-4e94-a230-8402afd3d82e">
+                    <ac:parameter ac:name="width">50%</ac:parameter>
+                    <ac:rich-text-body>
+                      <ac:structured-macro ac:name="warning" ac:schema-version="1" ac:macro-id="4344b7f1-05f8-4e27-acbc-db8ba5519aa3">
+                        <ac:rich-text-body>
+                          <p><strong>This template is an Advanced Staging Template</strong> – which means that it is not for everyone. For a Simple Staging Template, go back to the <a href="https://confluence.eng.nimblestorage.com/x/zlgsBQ">Support Knowledge Staging</a> page and click &quot;<strong> <code>Create page from STAGE Template</code> </strong>&quot;</p>
+                        </ac:rich-text-body>
+                      </ac:structured-macro>
+                      <ac:structured-macro ac:name="info" ac:schema-version="1" ac:macro-id="ca918fa3-b77a-4fd3-a3fa-a3ce5966ca5a">
+                        <ac:rich-text-body>
+                          <p>This template provides technical SMEs a simple layout to document the information they're looking to have developed into published knowledge for the global Nimble TSE team. It's important that a KNOW Jira Knowledge Request be associated with this page to enable tracking of the development of the knowledge. Please reach out to the Knowledge Team with any questions.</p>
+                        </ac:rich-text-body>
+                      </ac:structured-macro>
+                      <ac:structured-macro ac:name="warning" ac:schema-version="1" ac:macro-id="29d9ae44-076c-40fb-a63d-f864c870c0bb">
+                        <ac:rich-text-body>
+                          <p>This template should not be used for Pro Tip Video Requests. Use the <a href="https://confluence.eng.nimblestorage.com/x/9S2eBg">Pro Tip Video Production Template</a> instead.</p>
+                        </ac:rich-text-body>
+                      </ac:structured-macro>
+                      <ac:structured-macro ac:name="note" ac:schema-version="1" ac:macro-id="80447fe9-7ee5-4c9e-860c-f88680008c94">
+                        <ac:rich-text-body>
+                          <p>Once this page has been finished, confirmed via a Final Review in the Jira issue, and moved to Support Knowledge then this entire Section should be removed as per the <a href="https://confluence.eng.nimblestorage.com/x/hgP3Bw">Knowledge Creation Workflow</a>.</p>
+                        </ac:rich-text-body>
+                      </ac:structured-macro>
+                    </ac:rich-text-body>
+                  </ac:structured-macro>
+                </ac:rich-text-body>
+              </ac:structured-macro>
+            </ac:rich-text-body>
+          </ac:structured-macro>
+        </ac:rich-text-body>
+      </ac:structured-macro>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type="single">
+    <ac:layout-cell>
+      <ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="f11760d5-b3f7-4343-96b9-48dc6092ed02">
+        <ac:rich-text-body>
+          <ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="c347fd6d-5ab3-4e19-92f1-2c1e48b98fad">
+            <ac:parameter ac:name="width">20%</ac:parameter>
+            <ac:rich-text-body>
+              <p>
+                <ac:structured-macro ac:name="toc" ac:schema-version="1" ac:macro-id="ebaf3202-07d6-47dd-b3d2-ca01a7251429">
+                  <ac:parameter ac:name="maxLevel">2</ac:parameter>
+                  <ac:parameter ac:name="exclude">^Overview|Related Knowledge</ac:parameter>
+                </ac:structured-macro>
+              </p>
+              <p><br /></p>
+              <p>
+                <ac:structured-macro ac:name="anchor" ac:schema-version="1" ac:macro-id="dbd302aa-ae62-4ea8-b21f-877e14a91c3c">
+                  <ac:parameter ac:name="">TOP</ac:parameter>
+                </ac:structured-macro>
+              </p>
+              <ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="9c92296b-d4e1-4cfe-bcab-d66bcdd1ecc9">
+                <ac:rich-text-body>
+                  <h3>Technical Team</h3>
+                  <p>Eco-Other</p>
+                  <h3>Slack Channels</h3>
+                  <p><br /></p>
+                </ac:rich-text-body>
+              </ac:structured-macro>
+            </ac:rich-text-body>
+          </ac:structured-macro>
+          <ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="043db58a-00fa-4427-bb16-c15529ce1221">
+            <ac:parameter ac:name="width">80%</ac:parameter>
+            <ac:rich-text-body>
+              <ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="1252a3e8-b0d7-4d20-a99c-53e4e1e464b1">
+                <ac:rich-text-body>
+                  <ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="26118c3f-b239-4862-8a75-ec3f07b18807">
+                    <ac:parameter ac:name="width">75%</ac:parameter>
+                    <ac:rich-text-body>
+                      <h1>Overview</h1>
+                      <p>Persistent Volume Claims (PVCs) may fail to remount after a node reboot in Kubernetes and OpenShift environments. This issue can occur due to various reasons such as CSI driver restarts, incorrect reclaim policies, or pod affinity constraints that prevent the scheduling of pods on appropriate nodes.</p>
+                    </ac:rich-text-body>
+                  </ac:structured-macro>
+                  <ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="35f6fd58-afea-4b04-bd71-a05377c6f3f6">
+                    <ac:parameter ac:name="width">25%</ac:parameter>
+                    <ac:rich-text-body>
+                      <h2>Related Knowledge</h2>
+                      <p>
+                        <ac:structured-macro ac:name="contentbylabel" ac:schema-version="1" ac:macro-id="a1b2c3d4-5678-90ab-cdef-ghijklmnopqr">
+                          <ac:parameter ac:name="labels">pvc, kubernetes, openshift</ac:parameter>
+                          <ac:parameter ac:name="showLabels">false</ac:parameter>
+                          <ac:parameter ac:name="showSpace">false</ac:parameter>
+                          <ac:parameter ac:name="max">5</ac:parameter>
+                          <ac:parameter ac:name="spaces">KNOW</ac:parameter>
+                        </ac:structured-macro>
+                      </p>
+                      <p><ac:placeholder>leave this line blank for proper spacing</ac:placeholder></p>
+                      <p><br /></p>
+                    </ac:rich-text-body>
+                  </ac:structured-macro>
+                </ac:rich-text-body>
+              </ac:structured-macro>
+              <ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="30b862bd-3ef3-4072-a8a8-2cb5a3882775">
+                <ac:parameter ac:name="title">Key Terms & Definitions</ac:parameter>
+                <ac:rich-text-body>
+                  <ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="39cab3d5-5b0e-4ae9-bf6c-69d5d41ae7c7">
+                    <ac:rich-text-body>
+                      <ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="4e4399c1-45d6-4846-83eb-b6504c2b063c">
+                        <ac:parameter ac:name="width">50%</ac:parameter>
+                        <ac:rich-text-body>
+                          <h3>Secret</h3>
+                          <p>Provides access to the array with IP/hostname, username and password</p>
+                          <h3>Storage Class</h3>
+                          <p>Set of vendor specific instructions such as protocol(FC/iSCSI/NFS), folder location on array, performance policy, etc...</p>
+                        </ac:rich-text-body>
+                      </ac:structured-macro>
+                      <ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="a4e41108-e461-4e2a-a6af-5e9487a9a943">
+                        <ac:parameter ac:name="width">50%</ac:parameter>
+                        <ac:rich-text-body>
+                          <h3>PVC (Persistent Volume Claim)</h3>
+                          <p>Request for a PV (persistent volume) to be created. Persistent volume being the volume that exists on the <span style="color: rgb(23,43,77);">HPE storage array</span>.</p>
+                          <h3>Pod</h3>
+                          <p>A <span> </span><span style="color: rgb(23,43,77);">group of one or more containers, with shared storage and network resources, and a specification for how to run the containers</span></p>
+                        </ac:rich-text-body>
+                      </ac:structured-macro>
+                    </ac:rich-text-body>
+                  </ac:structured-macro>
+                </ac:rich-text-body>
+              </ac:structured-macro>
+            </ac:rich-text-body>
+          </ac:structured-macro>
+        </ac:rich-text-body>
+      </ac:structured-macro>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type="single">
+    <ac:layout-cell>
+      <p><br /></p>
+      <hr />
+      <p><br /></p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type="single">
+    <ac:layout-cell>
+      <ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="06cd4daf-cbee-460d-8198-26f0d08b2bb7">
+        <ac:rich-text-body>
+          <ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="a

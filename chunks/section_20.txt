@@ -1,0 +1,13 @@
+<ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="33817e31-72e3-4956-8b75-255e2a228fb6"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="code" ac:schema-version="1" ac:macro-id="e8fcc744-01c2-4672-adac-1c3f5c9e1f48"><ac:parameter ac:name="language">bash</ac:parameter><ac:parameter ac:name="theme">Emacs</ac:parameter><ac:parameter ac:name="title">To see the mount inside of container</ac:parameter><ac:plain-text-body><![CDATA[kubectl exec -it my-pod -- df -h
+                    Defaulted container "pod-datelog-1" out of: pod-datelog-1, pod-datelog-2
+                    Filesystem           Size  Used Avail Use% Mounted on
+                    overlay               49G   21G   26G  45% /
+                    tmpfs                 64M     0   64M   0% /dev
+                    tmpfs                3.9G     0  3.9G   0% /sys/fs/cgroup
+                    /dev/mapper/mpathap   50G  390M   50G   1% /data 				# Mount of the PVC inside of the container
+                    /dev/sda5             49G   21G   26G  45% /etc/hosts
+                    shm                   64M     0   64M   0% /dev/shm
+                    tmpfs                7.7G   12K  7.7G   1% /run/secrets/kubernetes.io/serviceaccount
+                    tmpfs                3.9G     0  3.9G   0% /proc/acpi
+                    tmpfs                3.9G     0  3.9G   0% /proc/scsi
+                    tmpfs                3.9G     0  3.9G   0% /sys/firmware]]></ac:plain-text-body></ac:structured-macro>

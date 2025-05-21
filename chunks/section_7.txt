@@ -1,0 +1,11 @@
+<ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="b7b0d49f-5f2d-47c5-bc4a-47a9735f5dde"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<h2>Storage Class Creation</h2>
+<p class="auto-cursor-target">Use <a href="https://scod.hpedev.io/csi_driver/deployment.html#create_a_storageclass_with_the_custom_secret:~:text=Opaque%20%20%20%20%20%20%20%205%20%20%20%20%20%20%20%20%201m-,Create%20a%20StorageClass%20with%20the%20Custom%20Secret,-%C2%B6">SCOD</a> to create a storage class YAML file for a set of vendor specific instructions for creating PVC(Volumes)</p>
+<p class="auto-cursor-target"><br /></p>
+<p class="auto-cursor-target"><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="0b386a73-36fa-4005-bc70-18d79aea0913"><ac:parameter ac:name="borderStyle">solid</ac:parameter><ac:parameter ac:name="title">Syntax</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="noformat" ac:schema-version="1" ac:macro-id="4ff4ddc8-eed2-44ce-99b3-fde5df6f69b3"><ac:parameter ac:name="nopanel">true</ac:parameter><ac:plain-text-body><![CDATA[kubectl apply -f <storageclass name>.yaml]]></ac:plain-text-body></ac:structured-macro>

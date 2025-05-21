@@ -1,0 +1,167 @@
+
+<ac:structured-macro ac:name="anchor">
+  <ac:parameter ac:name="">faq</ac:parameter>
+</ac:structured-macro>
+```xml
+<ac:layout>
+  <ac:layout-section ac:type="single">
+    <ac:layout-cell>
+      <ac:structured-macro ac:name="panel" ac:schema-version="1">
+        <ac:parameter ac:name="bgColor">#01A982</ac:parameter>
+        <ac:rich-text-body>
+          <ac:structured-macro ac:name="anchor">
+            <ac:parameter ac:name="">overview</ac:parameter>
+          </ac:structured-macro>
+          <h1>Overview</h1>
+          <p>Persistent Volume Claims (PVCs) may fail to remount after a node reboot in Kubernetes or OpenShift environments due to issues such as CSI driver restarts, incorrect reclaim policies, or pod affinity constraints. This document outlines the steps to diagnose and resolve these issues.</p>
+        </ac:rich-text-body>
+      </ac:structured-macro>
+      <ac:structured-macro ac:name="panel" ac:schema-version="1">
+        <ac:parameter ac:name="title">Procedural Steps</ac:parameter>
+        <ac:rich-text-body>
+          <ac:structured-macro ac:name="anchor">
+            <ac:parameter ac:name="">steps</ac:parameter>
+          </ac:structured-macro>
+          <ol>
+            <li>
+              <strong>Verify PVC status</strong>
+              <ac:structured-macro ac:name="expand">
+                <ac:parameter ac:name="title">Expand for CLI command</ac:parameter>
+                <ac:rich-text-body>
+                  <ac:structured-macro ac:name="noformat">
+                    <ac:plain-text-body><![CDATA[kubectl get pvc]]></ac:plain-text-body>
+                  </ac:structured-macro>
+                </ac:rich-text-body>
+              </ac:structured-macro>
+              <p>Check if the PVC is in `Pending`, `Bound`, or `Lost` state.</p>
+            </li>
+            <li>
+              <strong>Describe the PVC</strong>
+              <ac:structured-macro ac:name="expand">
+                <ac:parameter ac:name="title">Expand for CLI command</ac:parameter>
+                <ac:rich-text-body>
+                  <ac:structured-macro ac:name="noformat">
+                    <ac:plain-text-body><![CDATA[kubectl describe pvc <claim-name>]]></ac:plain-text-body>
+                  </ac:structured-macro>
+                </ac:rich-text-body>
+              </ac:structured-macro>
+              <p>Inspect Events section for scheduling issues or reclaim policy mismatch.</p>
+            </li>
+            <li>
+              <strong>Check CSI node logs</strong>
+              <ac:structured-macro ac:name="expand">
+                <ac:parameter ac:name="title">Expand for CLI command</ac:parameter>
+                <ac:rich-text-body>
+                  <ac:structured-macro ac:name="noformat">
+                    <ac:plain-text-body><![CDATA[kubectl logs -n kube-system -l app=csi-node]]></ac:plain-text-body>
+                  </ac:structured-macro>
+                </ac:rich-text-body>
+              </ac:structured-macro>
+              <p>Look for mount errors, timeouts, or communication issues.</p>
+            </li>
+            <li>
+              <strong>Inspect kubelet</strong>
+              <ac:structured-macro ac:name="expand">
+                <ac:parameter ac:name="title">Expand for CLI command</ac:parameter>
+                <ac:rich-text-body>
+                  <ac:structured-macro ac:name="noformat">
+                    <ac:plain-text-body><![CDATA[journalctl -u kubelet]]></ac:plain-text-body>
+                  </ac:structured-macro>
+                </ac:rich-text-body>
+              </ac:structured-macro>
+              <p>Review for CSI-related plugin failures or volume attachment events.</p>
+            </li>
+          </ol>
+        </ac:rich-text-body>
+      </ac:structured-macro>
+      <ac:structured-macro ac:name="panel" ac:schema-version="1">
+        <ac:parameter ac:name="title">Validation & Logs</ac:parameter>
+        <ac:rich-text-body>
+          <ac:structured-macro ac:name="anchor">
+            <ac:parameter ac:name="">validation</ac:parameter>
+          </ac:structured-macro>
+          <p>Validate the resolution steps by ensuring that the PVC status changes to 'Bound' and that pods can successfully mount the volumes. Check logs for any recurring errors and confirm that no errors related to storage connectivity or permissions exist.</p>
+          <ac:structured-macro ac:name="code">
+            <ac:parameter ac:name="language">bash</ac:parameter>
+            <ac:parameter ac:name="title">Example Log Output</ac:parameter>
+            <ac:plain-text-body><![CDATA[Volume mount success]]></ac:plain-text-body>
+          </ac:structured-macro>
+        </ac:rich-text-body>
+      </ac:structured-macro>
+      <ac:structured-macro ac:name="panel" ac:schema-version="1">
+        <ac:parameter ac:name="title">Expected CLI Commands</ac:parameter>
+        <ac:rich-text-body>
+          <ul>
+            <li><code>kubectl get pvc</code></li>
+            <li><code>kubectl describe pvc &lt;claim-name&gt;</code></li>
+            <li><code>kubectl logs -n kube-system -l app=csi-node</code></li>
+            <li><code>journalctl -u kubelet</code></li>
+            <li><code>lsblk</code></li>
+            <li><code>mount | grep /var/lib/kubelet</code></li>
+          </ul>
+        </ac:rich-text-body>
+      </ac:structured-macro>
+      <ac:structured-macro ac:name="panel" ac:schema-version="1">
+        <ac:parameter ac:name="title">Known Errors</ac:parameter>
+        <ac:rich-text-body>
+          <ul>
+            <li>MountVolume.Setup failed</li>
+            <li>CSI driver not registered</li>
+            <li>volume not found</li>
+            <li>reclaim policy mismatch</li>
+          </ul>
+        </ac:rich-text-body>
+      </ac:structured-macro>
+      <ac:structured-macro ac:name="panel" ac:schema-version="1">
+        <ac:parameter ac:name="bgColor">#7630EA</ac:parameter>
+        <ac:rich-text-body>
+          <ac:structured-macro ac:name="anchor">
+            <ac:parameter ac:name="">FAQ</ac:parameter>
+          </ac:structured-macro>
+          <h1>Frequently Asked Questions</h1>
+          <ac:structured-macro ac:name="panel">
+            <ac:parameter ac:name="bgColor">white</ac:parameter>
+            <ac:rich-text-body>
+              <h3>What steps should be taken if a PVC remains in the 'Lost' state?</h3>
+              <p>Investigate the underlying storage system and network connectivity, and ensure that the CSI driver is correctly configured and running.</p>
+            </ac:rich-text-body>
+          </ac:structured-macro>
+          <ac:structured-macro ac:name="panel">
+            <ac:parameter ac:name="bgColor">white</ac:parameter>
+            <ac:rich-text-body>
+              <h3>How can reclaim policies affect PVC behavior after a reboot?</h3>
+              <p>Reclaim policies determine how volumes are treated after they are released from a claim. Ensure that the policy matches the expected behavior for persistence across reboots.</p>
+            </ac:rich-text-body>
+          </ac:structured-macro>
+          <ac:structured-macro ac:name="panel">
+            <ac:parameter ac:name="bgColor">white</ac:parameter>
+            <ac:rich-text-body>
+              <h3>What are common issues with pod affinity that can affect volume mounting?</h3>
+              <p>Incorrect pod affinity settings can prevent pods from being scheduled on the appropriate nodes where the volume is available, leading to mount failures.</p>
+            </ac:rich-text-body>
+          </ac:structured-macro>
+        </ac:rich-text-body>
+      </ac:structured-macro>
+    </ac:layout-cell>
+  </ac:layout-section>
+
+<ac:structured-macro ac:name="anchor">
+  <ac:parameter ac:name="">faq</ac:parameter>
+</ac:structured-macro>
+<ac:structured-macro ac:name="panel">
+  <ac:parameter ac:name="bgColor">#7630EA</ac:parameter>
+  <ac:rich-text-body>
+    <h2>Frequently Asked Questions</h2>
+    <p>[To be added]</p>
+  </ac:rich-text-body>
+</ac:structured-macro>
+
+
+<ac:structured-macro ac:name="info">
+  <ac:rich-text-body>
+    <p><strong>Note:</strong> Double-check SAN zoning configuration before continuing.</p>
+  </ac:rich-text-body>
+</ac:structured-macro>
+
+</ac:layout>
+```

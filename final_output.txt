@@ -1,0 +1,121 @@
+<ac:layout-section ac:type="single"><ac:layout-cell><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="6558e585-5d64-4967-821f-df000d0d42cd"><ac:parameter ac:name="bgColor">#C54E4B</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="f8fdc33b-72ee-40ee-b256-fd98449ebb23"><ac:parameter ac:name="bgColor">white</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="warning" ac:schema-version="1" ac:macro-id="a2a39ca3-a5b4-4534-972d-75d7238fbebd"><ac:rich-text-body>
+<h1>This page is a staging page! Nothing on this page should be referenced or used as it's in development and could be incorrect or incomplete.</h1>
+<h1>Please use knowledge located on <a href="https://kcs.nido.nim.hpecorp.net/">KCS</a> or <a href="https://confluence.eng.nimblestorage.com/display/KNOW">Support Knowledge</a> instead.</h1></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="efd4e516-67fc-4bab-ab53-41986b330702"><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="8a277354-d815-4ad4-966c-c754b80d7ce2"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="details" ac:schema-version="1" ac:macro-id="b366c90e-8346-4ee6-baa1-83d147279e4d"><ac:rich-text-body>
+<table class="wrapped"><colgroup> <col /> <col /> </colgroup>
+<tbody>
+<tr>
+<th>KNOW Knowledge Request</th>
+<td>
+<div class="content-wrapper">
+<p><ac:structured-macro ac:name="jira" ac:schema-version="1" ac:macro-id="d55e52c9-112e-4ec8-92ca-5568543c5797"><ac:parameter ac:name="server">NimbleJIRA</ac:parameter><ac:parameter ac:name="serverId">c21b0b0a-51b1-3a4f-ac8e-272a931a59fb</ac:parameter><ac:parameter ac:name="key">KNOW-2810</ac:parameter></ac:structured-macro></p></div></td></tr>
+<tr>
+<th colspan="1">Knowledge Type</th>
+<td colspan="1">Process Doc</td></tr>
+<tr>
+<th>Technical Team</th>
+<td>
+<div class="content-wrapper">
+<p>Eco-Other</p></div></td></tr>
+<tr>
+<th colspan="1">Technical SME</th>
+<td colspan="1"><ac:link><ri:user ri:userkey="8a9280416491f3210165827e2d7f003c" /></ac:link> </td></tr>
+<tr>
+<th>Slack Channel</th>
+<td>
+<div class="content-wrapper"><a href="https://hpe.enterprise.slack.com/archives/C0269GB11C3">https://hpe.enterprise.slack.com/archives/C0269GB11C3</a></div></td></tr>
+<tr>
+<th colspan="1">Published?</th>
+<td colspan="1"><ac:emoticon ac:name="cross" /> <ac:placeholder>When published, delete the red X and type (/) to enter a green check</ac:placeholder></td></tr></tbody></table></ac:rich-text-body></ac:structured-macro>
+<h3>Building Resources:</h3>
+<ul>
+<li><a href="https://confluence.eng.nimblestorage.com/x/zlgsBQ">Support Knowledge Staging</a></li>
+<li><a href="https://confluence.eng.nimblestorage.com/x/hgP3Bw">Knowledge Creation Workflow</a></li>
+<li><a href="https://confluence.eng.nimblestorage.com/x/cLF_BQ">Labels Used by the Knowledge Vertical</a></li>
+<li><a href="https://confluence.eng.nimblestorage.com/x/BRUsBQ">Nimble Support Style / Writing Guide</a></li>
+<li><a href="https://nimblejira.nimblestorage.com/projects/KNOW/issues/">Knowledge Jira Project</a></li></ul>
+<p><br /></p><ac:structured-macro ac:name="expand" ac:schema-version="1" ac:macro-id="ceee1326-c78f-4f6f-afec-3d7f9b4ddefa"><ac:parameter ac:name="title">Gliffy Diagram If Needed...</ac:parameter><ac:rich-text-body>
+<p>If the Gliffy Diagram is needed, Go out to the View, click the 3 dots, and Copy the Diagram to this page. Then Move it to its proper location.</p>
+<p><span style="color: rgb(255,0,0);"><strong>DO NOT EDIT THE ORIGINAL</strong></span></p>
+<p>If it is <em>not</em> needed, then delete this expand box.</p>
+<p><ac:structured-macro ac:name="gliffy" ac:schema-version="1" ac:macro-id="240e4002-0f5d-469b-8f56-90cc926fe83b"><ac:parameter ac:name="size">600</ac:parameter><ac:parameter ac:name="name">Troubleshooting Workflow Template</ac:parameter><ac:parameter ac:name="pageid">208970019</ac:parameter><ac:parameter ac:name="" /></ac:structured-macro></p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="0411ea49-08b5-4e94-a230-8402afd3d82e"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="warning" ac:schema-version="1" ac:macro-id="4344b7f1-05f8-4e27-acbc-db8ba5519aa3"><ac:rich-text-body>
+<p><strong>This template is an Advanced Staging Template</strong> – which means that it is not for everyone. For a Simple Staging Template, go back to the <a href="https://confluence.eng.nimblestorage.com/x/zlgsBQ">Support Knowledge Staging</a> page and click &quot;<strong> <code>Create page from STAGE Template</code> </strong>&quot;</p></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="info" ac:schema-version="1" ac:macro-id="ca918fa3-b77a-4fd3-a3fa-a3ce5966ca5a"><ac:rich-text-body>
+<p>This template provides technical SMEs a simple layout to document the information they're looking to have developed into published knowledge for the global Nimble TSE team. It's important that a KNOW Jira Knowledge Request be associated with this page to enable tracking of the development of the knowledge. Please reach out to the Knowledge Team with any questions.</p></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="warning" ac:schema-version="1" ac:macro-id="29d9ae44-076c-40fb-a63d-f864c870c0bb"><ac:rich-text-body>
+<p>This template should not be used for Pro Tip Video Requests. Use the <a href="https://confluence.eng.nimblestorage.com/x/9S2eBg">Pro Tip Video Production Template</a> instead.</p></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="note" ac:schema-version="1" ac:macro-id="80447fe9-7ee5-4c9e-860c-f88680008c94"><ac:rich-text-body>
+<p>Once this page has been finished, confirmed via a Final Review in the Jira issue, and moved to Support Knowledge then this entire Section should be removed as per the <a href="https://confluence.eng.nimblestorage.com/x/hgP3Bw">Knowledge Creation Workflow</a>.</p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro></ac:layout-cell></ac:layout-section><ac:layout-section ac:type="single"><ac:layout-cell><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="f11760d5-b3f7-4343-96b9-48dc6092ed02"><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="c347fd6d-5ab3-4e19-92f1-2c1e48b98fad"><ac:parameter ac:name="width">20%</ac:parameter><ac:rich-text-body>
+<p><ac:structured-macro ac:name="toc" ac:schema-version="1" ac:macro-id="ebaf3202-07d6-47dd-b3d2-ca01a7251429"><ac:parameter ac:name="maxLevel">2</ac:parameter><ac:parameter ac:name="exclude">^Overview|Related Knowledge</ac:parameter></ac:structured-macro></p>
+<p><br /></p>
+<p><ac:structured-macro ac:name="anchor" ac:schema-version="1" ac:macro-id="dbd302aa-ae62-4ea8-b21f-877e14a91c3c"><ac:parameter ac:name="">TOP</ac:parameter></ac:structured-macro></p><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="9c92296b-d4e1-4cfe-bcab-d66bcdd1ecc9"><ac:rich-text-body>
+<h3>Technical Team</h3>
+<p>Eco-Other</p>
+<h3>Slack Channels</h3>
+<p><br /></p></ac:rich-text-body></ac:structured-macro></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="043db58a-00fa-4427-bb16-c15529ce1221"><ac:parameter ac:name="width">80%</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="section" ac:schema-version="1" ac:macro-id="1252a3e8-b0d7-4d20-a99c-53e4e1e464b1"><ac:rich-text-body><ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="26118c3f-b239-4862-8a75-ec3f07b18807"><ac:parameter ac:name="width">75%</ac:parameter><ac:rich-text-body>
+<!-- DO NOT change the heading. Only replace the paragraph below it. -->
+<ac:rich-text-body>
+<h1>Overview</h1>
+<p>This document provides a comprehensive guide to the project, outlining key objectives, scope, and methodologies. It serves as a central resource for all stakeholders to understand the project’s strategic direction and operational framework. The information contained herein is crucial for aligning team efforts and ensuring cohesive progress throughout the project lifecycle.</p>
+</ac:rich-text-body>
+<h1>Secret Creation</h1>
+<p>Use <a href="https://scod.hpedev.io/csi_driver/deployment.html#create_a_storageclass_with_the_custom_secret:~:text=storage%20backend.-">SCOD</a> to create a secret YAML file for a set of instructions to connect to storage.</p>
+
+<h2>Create the secret YAML file</h2>
+<ac:structured-macro ac:name="tip" ac:schema-version="1">
+    <ac:rich-text-body>
+        <p>In a real-world scenario, it's more practical to name the <code>Secret</code> something that makes sense for the organization. It could be the hostname of the backend or the role it carries, i.e. "hpe-alletra-sanjose-prod."</p>
+    </ac:rich-text-body>
+</ac:structured-macro>
+
+<p><br /></p>
+<p><br /></p>
+
+<ac:structured-macro ac:name="gliffy" ac:schema-version="1">
+    <ac:parameter ac:name="size">600</ac:parameter>
+    <ac:parameter ac:name="name">Troubleshooting Workflow Template</ac:parameter>
+    <ac:parameter ac:name="pageid">208970019</ac:parameter>
+</ac:structured-macro>
+<h1>Frequently Asked Questions (FAQ)</h1>
+<p>This section addresses common questions and concerns about the project, providing clarifications and additional information to ensure all stakeholders have a thorough understanding of project processes and expectations.</p>
+
+<h2>What is the purpose of the secret YAML file?</h2>
+<p>The secret YAML file is used to securely store credentials and other sensitive information required for authenticating and connecting to external storage resources. This ensures that access is controlled and that the data can be accessed securely by authorized Kubernetes/OpenShift nodes.</p>
+
+<h2>How does the storage class affect volume provisioning?</h2>
+<p>The storage class specifies the type of storage to be used and the method for provisioning volumes. It includes details such as the type of protocol (FC/iSCSI), the provisioning policy (e.g., thin or thick provisioning), and performance characteristics. This classification helps in dynamically provisioning the storage as per the specified requirements when a PVC is requested.</p>
+
+<h2>What happens if a pod fails to mount a PVC?</h2>
+<p>If a pod fails to mount a PVC, Kubernetes/OpenShift will repeatedly attempt to mount the volume. If it continues to fail, it will report an error in the pod's events, which can be viewed using the `kubectl describe pod [pod-name]` command. Troubleshooting steps would typically involve checking the storage connectivity, permissions, and the logs of the storage provider.</p>
+
+<h2>Can I specify multiple storage classes in a single secret YAML file?</h2>
+<p>No, a secret YAML file is generally specific to a single storage class or a specific type of connection. If multiple types of storage or connections are needed, separate secrets should be created for each to maintain clarity and security best practices.</p>
+
+<h2>How secure is the information stored in the secret YAML file?</h2>
+<p>Kubernetes/OpenShift secrets are stored as base64-encoded strings in the cluster's etcd database. While base64 is not an encryption method, access to secrets can be tightly controlled using Kubernetes RBAC (Role-Based Access Control) policies to ensure that only authorized users and applications can retrieve or manage the secrets.</p>
+
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<h1>Frequently Asked Questions (FAQ)</h1>
+<p>This section addresses common questions and concerns about the project, providing clarifications and additional information to ensure all stakeholders have a thorough understanding of project processes and expectations.</p>
+
+<h2>What is the purpose of the secret YAML file?</h2>
+<p>The secret YAML file is used to securely store credentials and other sensitive information required for authenticating and connecting to external storage resources. This ensures that access is controlled and that the data can be accessed securely by authorized Kubernetes/OpenShift nodes.</p>
+
+<h2>How does the storage class affect volume provisioning?</h2>
+<p>The storage class specifies the type of storage to be used and the method for provisioning volumes. It includes details such as the type of protocol (FC/iSCSI), the provisioning policy (e.g., thin or thick provisioning), and performance characteristics. This classification helps in dynamically provisioning the storage as per the specified requirements when a PVC is requested.</p>
+
+<h2>What happens if a pod fails to mount a PVC?</h2>
+<p>If a pod fails to mount a PVC, Kubernetes/OpenShift will repeatedly attempt to mount the volume. If it continues to fail, it will report an error in the pod's events, which can be viewed using the `kubectl describe pod [pod-name]` command. Troubleshooting steps would typically involve checking the storage connectivity, permissions, and the logs of the storage provider.</p>
+
+<h2>Can I specify multiple storage classes in a single secret YAML file?</h2>
+<p>No, a secret YAML file is generally specific to a single storage class or a specific type of connection. If multiple types of storage or connections are needed, separate secrets should be created for each to maintain clarity and security best practices.</p>
+
+<h2>How secure is the information stored in the secret YAML file?</h2>
+<p>Kubernetes/OpenShift secrets are stored as base64-encoded strings in the cluster's etcd database. While base64 is not an encryption method, access to secrets can be tightly controlled using Kubernetes RBAC (Role-Based Access Control) policies to ensure that only authorized users and applications can retrieve or manage the secrets.</p>
+</ac:layout>
+<!-- === END OF OUTPUT === -->

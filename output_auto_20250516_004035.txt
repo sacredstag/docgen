@@ -1,0 +1,124 @@
+```xml
+<ac:layout>
+    <ac:layout-section ac:type="single">
+        <ac:layout-cell>
+            <ac:structured-macro ac:name="panel" ac:schema-version="1">
+                <ac:parameter ac:name="bgColor">#01A982</ac:parameter>
+                <ac:rich-text-body>
+                    <ac:structured-macro ac:name="anchor">
+                        <ac:parameter ac:name="">overview</ac:parameter>
+                    </ac:structured-macro>
+                    <h1>Overview</h1>
+                    <p>This document addresses the issue of Subscription Validation Failure in the HPE GreenLake Cloud Console, specifically for HPE Alletra Storage MP arrays. It provides a detailed guide on verifying network settings, adjusting firewall and proxy configurations, and manually triggering subscription validation to resolve connectivity issues.</p>
+                </ac:rich-text-body>
+            </ac:structured-macro>
+            <ac:structured-macro ac:name="panel" ac:schema-version="1">
+                <ac:parameter ac:name="bgColor">#32DAC8</ac:parameter>
+                <ac:rich-text-body>
+                    <ac:structured-macro ac:name="anchor">
+                        <ac:parameter ac:name="">steps</ac:parameter>
+                    </ac:structured-macro>
+                    <h1>Procedural Steps</h1>
+                    <ol>
+                        <li>
+                            <strong>Verify Network Connectivity</strong>
+                            <ac:structured-macro ac:name="expand">
+                                <ac:parameter ac:name="title">Expand for CLI command</ac:parameter>
+                                <ac:rich-text-body>
+                                    <ac:structured-macro ac:name="noformat">
+                                        <ac:plain-text-body><![CDATA[ping cloud.hpe.com]]></ac:plain-text-body>
+                                    </ac:structured-macro>
+                                </ac:rich-text-body>
+                            </ac:structured-macro>
+                            <p>Check if the array has outbound connectivity to the GreenLake Console endpoints.</p>
+                        </li>
+                        <li>
+                            <strong>Validate Proxy Settings</strong>
+                            <ac:structured-macro ac:name="expand">
+                                <ac:parameter ac:name="title">Expand for CLI command</ac:parameter>
+                                <ac:rich-text-body>
+                                    <ac:structured-macro ac:name="noformat">
+                                        <ac:plain-text-body><![CDATA[show proxy settings]]></ac:plain-text-body>
+                                    </ac:structured-macro>
+                                </ac:rich-text-body>
+                            </ac:structured-macro>
+                            <p>Ensure proxy settings are properly configured and reachable from the array.</p>
+                        </li>
+                        <li>
+                            <strong>Test Outbound Ports</strong>
+                            <ac:structured-macro ac:name="expand">
+                                <ac:parameter ac:name="title">Expand for CLI command</ac:parameter>
+                                <ac:rich-text-body>
+                                    <ac:structured-macro ac:name="noformat">
+                                        <ac:plain-text-body><![CDATA[nc -zv cloud.hpe.com 443]]></ac:plain-text-body>
+                                    </ac:structured-macro>
+                                </ac:rich-text-body>
+                            </ac:structured-macro>
+                            <p>Confirm that required outbound ports are not blocked by firewalls.</p>
+                        </li>
+                        <li>
+                            <strong>Manually Trigger Subscription Sync</strong>
+                            <ac:structured-macro ac:name="expand">
+                                <ac:parameter ac:name="title">Expand for CLI command</ac:parameter>
+                                <ac:rich-text-body>
+                                    <ac:structured-macro ac:name="noformat">
+                                        <ac:plain-text-body><![CDATA[initiate-subscription-validation]]></ac:plain-text-body>
+                                    </ac:structured-macro>
+                                </ac:rich-text-body>
+                            </ac:structured-macro>
+                            <p>Use the array's CLI or UI to manually attempt a subscription re-validation.</p>
+                        </li>
+                        <li>
+                            <strong>Confirm Subscription Status</strong>
+                            <ac:structured-macro ac:name="expand">
+                                <ac:parameter ac:name="title">Expand for CLI command</ac:parameter>
+                                <ac:rich-text-body>
+                                    <ac:structured-macro ac:name="noformat">
+                                        <ac:plain-text-body><![CDATA[show subscription status]]></ac:plain-text-body>
+                                    </ac:structured-macro>
+                                </ac:rich-text-body>
+                            </ac:structured-macro>
+                            <p>Ensure the subscription state reflects 'Validated' after successful sync.</p>
+                        </li>
+                    </ol>
+                </ac:rich-text-body>
+            </ac:structured-macro>
+            <ac:structured-macro ac:name="panel" ac:schema-version="1">
+                <ac:parameter ac:name="bgColor">#0D5265</ac:parameter>
+                <ac:rich-text-body>
+                    <ac:structured-macro ac:name="anchor">
+                        <ac:parameter ac:name="">validation</ac:parameter>
+                    </ac:structured-macro>
+                    <h1>Validation & Logs</h1>
+                    <p>After completing the steps, validate the connection to HPE GreenLake Cloud Console by checking the subscription status in the management interface. Ensure no error messages are present and the status indicates a successful connection.</p>
+                </ac:rich-text-body>
+            </ac:structured-macro>
+            <ac:structured-macro ac:name="panel" ac:schema-version="1">
+                <ac:parameter ac:name="bgColor">#FEC901</ac:parameter>
+                <ac:rich-text-body>
+                    <ac:structured-macro ac:name="anchor">
+                        <ac:parameter ac:name="">errors</ac:parameter>
+                    </ac:structured-macro>
+                    <h1>Known Errors</h1>
+                    <p>Errors related to "Failed to connect to the server" or "Subscription validation unsuccessful" may indicate network issues, incorrect proxy settings, or blocked ports. Follow the troubleshooting steps to resolve these issues.</p>
+                </ac:rich-text-body>
+            </ac:structured-macro>
+            <ac:structured-macro ac:name="panel" ac:schema-version="1">
+                <ac:parameter ac:name="bgColor">#7630EA</ac:parameter>
+                <ac:rich-text-body>
+                    <ac:structured-macro ac:name="anchor">
+                        <ac:parameter ac:name="">FAQ</ac:parameter>
+                    </ac:structured-macro>
+                    <h1>Frequently Asked Questions</h1>
+                    <h3>What are the network requirements for HPE GreenLake Cloud Console?</h3>
+                    <p>Network requirements include open outbound ports 443 for HTTPS traffic to cloud.hpe.com and correct proxy settings if applicable.</p>
+                    <h3>How do I check if the firewall is blocking necessary ports?</h3>
+                    <p>Use the command <code>nc -zv cloud.hpe.com 443</code> to test connectivity and ensure the port is open.</p>
+                    <h3>What should I do if the subscription status remains unvalidated?</h3>
+                    <p>Re-check network settings, ensure the firewall and proxy settings are correct, and manually trigger the subscription validation process again.</p>
+                </ac:rich-text-body>
+            </ac:structured-macro>
+        </ac:layout-cell>
+    </ac:layout-section>
+</ac:layout>
+```

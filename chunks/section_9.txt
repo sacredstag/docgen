@@ -1,0 +1,11 @@
+<ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="aeb6242c-ffcc-40bd-9a62-2358b1eca495"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body>
+<h2>Create PVC</h2>
+<p class="auto-cursor-target">Use <a href="https://scod.hpedev.io/csi_driver/using.html#create_a_persistentvolumeclaim_from_a_storageclass:~:text=Create%20a%20PersistentVolumeClaim.%20This%20object%20declaration%20ensures%20a%20PersistentVolume%20is%20created%20and%20provisioned%20on%20your%20behalf%2C%20make%20sure%20to%20reference%20the%20correct%20.spec.storageClassName%3A">SCOD</a> to create PVC YAML file </p>
+<p class="auto-cursor-target"><br /></p>
+<p class="auto-cursor-target"><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="72d7a7c8-8a0f-40b1-91de-16201f683312"><ac:parameter ac:name="borderStyle">solid</ac:parameter><ac:parameter ac:name="title">Syntax</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="noformat" ac:schema-version="1" ac:macro-id="d11cf11f-3c6f-4065-9ad6-65eb14a5bfe9"><ac:parameter ac:name="nopanel">true</ac:parameter><ac:plain-text-body><![CDATA[kubectl apply -f <pvc name>.yaml]]></ac:plain-text-body></ac:structured-macro>

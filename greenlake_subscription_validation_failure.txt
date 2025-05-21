@@ -1,0 +1,29 @@
+Title: Subscription Validation Failure in HPE GreenLake Cloud Console
+
+Issue:
+After deploying a new HPE Alletra Storage MP array, the system fails to validate its subscription via the HPE GreenLake Cloud Console. The array displays an error indicating unsuccessful subscription validation.
+
+Environment:
+- HPE Alletra Storage MP B10000
+- HPE GreenLake Cloud Console
+- Network connectivity through corporate firewall and proxy
+
+Symptoms:
+- The array's subscription status remains unvalidated.
+- Error messages indicate failure to connect to the HPE Cloud Console.
+- Attempts to manually trigger subscription validation are unsuccessful.
+
+Troubleshooting Steps Taken:
+- Verified network connectivity from the array to the internet.
+- Checked firewall rules to ensure outbound traffic to HPE endpoints is permitted.
+- Reviewed proxy settings configured on the array.
+- Attempted to manually initiate subscription validation through the array's management interface.
+
+Resolution:
+- Identified that the firewall was blocking specific outbound ports required for communication with the HPE Cloud Console.
+- Updated firewall rules to allow necessary outbound traffic.
+- Re-initiated subscription validation, which completed successfully.
+
+Additional Notes:
+- Ensuring proper network configuration is crucial for successful subscription validation.
+- Refer to HPE's support documentation for detailed network requirements and troubleshooting steps.

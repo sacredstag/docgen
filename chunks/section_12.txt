@@ -1,0 +1,24 @@
+<ac:structured-macro ac:name="column" ac:schema-version="1" ac:macro-id="a5881d06-f65f-4415-ad06-0bcfba30979e"><ac:parameter ac:name="width">50%</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="code" ac:schema-version="1" ac:macro-id="1d559065-0797-47d8-8e6e-b690741d5930"><ac:parameter ac:name="language">bash</ac:parameter><ac:parameter ac:name="theme">Emacs</ac:parameter><ac:parameter ac:name="title">Example of PVC YAML</ac:parameter><ac:parameter ac:name="collapse">true</ac:parameter><ac:plain-text-body><![CDATA[kind: Pod
+apiVersion: v1
+metadata:
+  name: my-pod
+spec:
+  containers:
+    - name: pod-datelog-1
+      image: nginx
+      command: ["bin/sh"]
+      args: ["-c", "while true; do date >> /data/mydata.txt; sleep 1; done"]
+      volumeMounts:
+        - name: export1
+          mountPath: /data
+    - name: pod-datelog-2
+      image: debian
+      command: ["bin/sh"]
+      args: ["-c", "while true; do date >> /data/mydata.txt; sleep 1; done"]
+      volumeMounts:
+        - name: export1
+          mountPath: /data					# Mount point within the container for the PVC
+  volumes:
+    - name: export1
+      persistentVolumeClaim:
+        claimName: my-first-pvc				# PVC that is already created]]></ac:plain-text-body></ac:structured-macro>

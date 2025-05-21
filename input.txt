@@ -1,0 +1,28 @@
+Title: iSCSI Login Fails on Linux Host with Multipath and Manual Session Restoration
+
+Audience: L3 Technical Support
+
+System: Block Storage — Hybrid SAN (on-prem)
+
+Request:
+Customers using hybrid SAN environments are experiencing iSCSI login failures. This usually occurs after host reboots or improper shutdowns where iSCSI sessions are not cleanly terminated.
+
+These environments rely on `multipathd` and native `iscsiadm` for session persistence. Common failure causes include network misconfigurations, stale node definitions, or incorrect session cleanup.
+
+Support engineers need a document that includes:
+
+1. Verifying NIC status and IP reachability to storage targets
+2. Reviewing `iscsiadm -m node` and `iscsiadm -m session` output
+3. Identifying and removing stale or duplicate nodes
+4. Restarting `multipathd` and confirming `multipath -ll` results
+5. Rebuilding persistent sessions and testing login flow
+6. Performing clean logout and relogin with `iscsiadm`
+
+Include:
+- CLI commands inside expand/noformat blocks
+- Warning about the risks of force-logging out active sessions
+- Info panel note about backing up `/etc/iscsi/` before modifying nodes
+- Anchor tags for major sections
+- Color-coded panels per documentation guide
+- Final section must be titled “Frequently Asked Questions”
+
