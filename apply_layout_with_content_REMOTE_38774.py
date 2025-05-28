@@ -23,23 +23,10 @@ def load_chunk(name):
 
 def load_dynamic_chunks():
     dynamic_chunks = []
-<<<<<<< ours
-    section_files = []
-    for fname in os.listdir(CHUNKS_DIR):
-        match = re.match(r"section_(\\d+)\\.txt", fname)
-        if match:
-            section_files.append((int(match.group(1)), fname))
-
-    for _, fname in sorted(section_files):
-        with open(os.path.join(CHUNKS_DIR, fname), "r") as f:
-            dynamic_chunks.append(f.read().strip())
-
-=======
     for fname in sorted(os.listdir(CHUNKS_DIR)):
         if re.match(r"section_\\d+\\.txt", fname):
             with open(os.path.join(CHUNKS_DIR, fname), "r", encoding="utf-8") as f:
                 dynamic_chunks.append(f.read().strip())
->>>>>>> theirs
     return "\n\n".join(dynamic_chunks)
 
 def apply_layout():

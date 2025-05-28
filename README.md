@@ -60,6 +60,12 @@ python inject_scenario.py --scenario pvc_mount_failure --source kube_pvc_issue_n
 python main.py --phase auto
 ```
 
+Or run the helper pipeline script:
+
+```bash
+python pipeline.py --scenario pvc_mount_failure --source kube_pvc_issue_notes.txt
+```
+
 This generates input, runs GPT, repairs macro output, and validates structure.
 
 ---

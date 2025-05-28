@@ -8,7 +8,11 @@ from dotenv import load_dotenv
 
 # === Load API key from .env ===
 load_dotenv()
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+api_key = os.getenv("OPENAI_API_KEY")
+if not api_key:
+    raise ValueError("Missing OpenAI API key in .env")
+
+client = OpenAI(api_key=api_key)
 
 # === CLI ARGUMENT PARSING ===
 parser = argparse.ArgumentParser(description="Generate chunked GPT Confluence output")

@@ -15,7 +15,7 @@ ANCHORS = {
 def load_chunk(name):
     path = os.path.join(CHUNKS_DIR, f"{name}.txt")
     if os.path.exists(path):
-        with open(path, "r", encoding="utf-8") as f:
+        with open(path, "r") as f:
             return f.read().strip()
     else:
         print(f"⚠️ Missing chunk: {name}.txt")
@@ -23,29 +23,14 @@ def load_chunk(name):
 
 def load_dynamic_chunks():
     dynamic_chunks = []
-<<<<<<< ours
-    section_files = []
-    for fname in os.listdir(CHUNKS_DIR):
-        match = re.match(r"section_(\\d+)\\.txt", fname)
-        if match:
-            section_files.append((int(match.group(1)), fname))
-
-    for _, fname in sorted(section_files):
-        with open(os.path.join(CHUNKS_DIR, fname), "r") as f:
-            dynamic_chunks.append(f.read().strip())
-
-=======
     for fname in sorted(os.listdir(CHUNKS_DIR)):
         if re.match(r"section_\\d+\\.txt", fname):
-            with open(os.path.join(CHUNKS_DIR, fname), "r", encoding="utf-8") as f:
+            with open(os.path.join(CHUNKS_DIR, fname), "r") as f:
                 dynamic_chunks.append(f.read().strip())
->>>>>>> theirs
     return "\n\n".join(dynamic_chunks)
 
 def apply_layout():
-    if not os.path.exists(BASE_LAYOUT):
-        raise FileNotFoundError(f"{BASE_LAYOUT} not found")
-    with open(BASE_LAYOUT, "r", encoding="utf-8") as f:
+    with open(BASE_LAYOUT, "r") as f:
         layout = f.read()
 
     # Replace fixed anchors
@@ -57,7 +42,7 @@ def apply_layout():
     dynamic_content = load_dynamic_chunks()
     layout = layout.replace(ANCHORS["dynamic"], dynamic_content)
 
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+    with open(OUTPUT_FILE, "w") as f:
         f.write(layout)
 
     print(f"✅ Structured document written to: {OUTPUT_FILE}")
